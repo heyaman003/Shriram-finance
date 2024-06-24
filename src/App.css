@@ -1,0 +1,61 @@
+
+
+
+#root {
+  
+  margin: 0 auto;
+  padding: 1%;
+}
+
+
+.chairman {
+  width: 500px;
+  height: 500px;
+  
+}
+
+@font-face {
+  font-family: 'Museo Sans 500';
+  src: url('public/Fonts/MuseoSans-300.woff') format('woff2'),
+      url('public/Fonts/MuseoSans-500.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans 900';
+  src: url('public/Fonts/MuseoSans-900.woff2') format('woff2'),
+      url('public/Fonts/MuseoSans-900.woff') format('woff');
+  font-weight: bolder;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans 700';
+  src: url('public/Fonts/MuseoSans-700.woff2') format('woff2'),
+      url('public/Fonts/MuseoSans-700.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans 100';
+  src: url('public/Fonts/MuseoSans-100.woff2') format('woff2'),
+      url('public/Fonts/MuseoSans-100.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Museo Sans 300';
+  src: url('public/Fonts/MuseoSans-300.woff2') format('woff2'),
+      url('public/Fonts/MuseoSans-300.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
