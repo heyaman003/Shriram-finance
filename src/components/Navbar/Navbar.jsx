@@ -109,6 +109,8 @@ import { motion } from "framer-motion";
     </Link></li>
     <li><Link onClick={() => toggleNav()} to="/Affordability" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Affordability
     </Link></li>
+    <li><Link onClick={() => toggleNav()} to="/Progress" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>View Progress
+    </Link></li>
   </ul>
             </motion.div>
           </nav>

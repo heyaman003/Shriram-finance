@@ -38,7 +38,7 @@ function App() {
 
 
 
-<Route path='/Chairman' element={<Chairman/>}/>
+<Route path='/Chairman-message' element={<Chairman/>}/>
 <Route path='/CFO' element={<CFO/>}/>
 <Route path='/BOD' element={<BOD/>}/>
 <Route path='/ManagementTeam' element={<ManagementTeam/>}/>

@@ -1,9 +1,10 @@
 .navbar {
     align-items: center;
     padding: 0 2%;
+    position: absolute;
     top: 0;
     width: 100%;
-    position: sticky;
+    position: fixed;
     height: 10vh;
     background-color: white;
     z-index: 111;
@@ -130,7 +131,7 @@
 }
 
 #nav-fullscreen a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -149,10 +150,7 @@
     transition: ease-in-out 0.5s;
     transition-delay: 0.25s;
 }
-.gradient-line{
-    position: sticky;
-    top: 10%;
-}
+
 *,
 *:before,
 *:after {
@@ -160,13 +158,13 @@
 }
 
 #nav-overlay {
-    background-color: #f4f7f9;
+    background-color: #f9fbfc;
 }
 
 
 
 #nav-fullscreen a:hover {
-color: rgb(4, 187, 4);
+color: rgb(34, 86, 142);
 }
 
 .nav-menu-wrap {
@@ -204,24 +202,19 @@ color: rgb(4, 187, 4);
     }
 
     #nav-overlay {
-        margin-top: 20%;
+        padding-top: 15%;
         width: 90vw;
         height: 90vw;
-        color: #080808;
+        
     }
     .nav-menu-wrap {
-        margin-top: 40%;
+        margin-top: 20%;
     }
-    #nav-fullscreen a {
-        color: #000000;
-        /* margin: 0 !important; */
-        }
+    
 }
-.nav-menu-wrap li a{
-    color: black !important;
-}
+
 .nestle-logo{
     position: absolute;
-    transform: translateX(-50%);
     left: 50%;
+    transform: translateX(-50%);
 }
