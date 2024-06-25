@@ -67,6 +67,14 @@
 .bg{
     border: 1px solid red;
 }
+.disc-section{
+    background-color: #e7f1f4;
+    padding: 5%;
+}
+.val-heading{
+    font-size: 40px;
+    font-weight: 800;
+}
 .landing-page-hero-container h1{
 font-size: 36px;
 }

@@ -22,6 +22,7 @@ import Journey from './pages/Journey/Journey';
 import Empowering from './pages/Empowerment/Empowering';
 import Affordability from './pages/Empowerment/Affordability';
 import MeasuringPerfomance from './pages/MeasuringPerfomance';
+import Footer from './components/Footer/Footer';
  
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
 <Route path='/Progress' element={<MeasuringPerfomance/>}/>
 <Route path='/EffectiveGovernance' element={<EffectiveGovernance/>}/>
 </Routes>
+<Footer/>
 </BrowserRouter>
     </>
   )
