@@ -9,7 +9,10 @@
     background-color: white;
     z-index: 111;
 }
-
+#nav-fullscreen {
+    overflow: hidden;
+}
+  
 .navbar h4 {
     color: black;
 }
@@ -218,3 +221,4 @@ color: rgb(34, 86, 142);
     left: 50%;
     transform: translateX(-50%);
 }
+

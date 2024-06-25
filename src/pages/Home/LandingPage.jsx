@@ -62,32 +62,50 @@ export default function LandingPage() {
             </div> */}
             <MHighlights />
 
-            <div>
+            <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-8'>
                 <div className='head relative flex justify-start  mt-10 mb-10 '>
                     <img src="./Highlights-img/Emp_img.svg" alt="" className='w-full' />
-                    <p className='absolute lg:text-2xl sm:text-xm inset-0 top-[50%] left-[50%] font-medium  '>
-                        Empowering People with Affordable Housing Finance Solutions
+                    <p className='absolute lg:text-4xl sm:text-2xl inset-0 top-[50%] left-[50%] font-bold  '>
+                        Empowering <span className='text-[#0098B3]'>People Enhancing</span> Growth Ensuring <span className='text-[#67236e]'>Affordability</span>
                     </p>
+                </div>
+                <div className='lg:text-3xl pt-8 text-[#0098B3] font-500'>
+                       <p>For us at Shriram Housing Finance Limited (SHFL),
+                        empowerment is an endeavour that begins with
+                        a better understanding of what our customers
+                        need and culminates with the fulfilment of their
+                        aspirations of owning their own homes. This is
+                        what we mean by saying that empowerment for us
+                        has more than one connotation.</p>
                 </div>
             </div>
 
 
-            {/* <div className='grid lg:grid-cols-2 disc-section  sm:grid-cols-1  gap-4  w-full ' >
-                <div className='flex  items-center lg:pl-[9%]'>
-                    <img src="./Highlights-img/housing_img.svg" alt="" className='image-icon' />
-                    <p className='text-3xl '>Housing
-                        for All</p>
-                </div>
-                <div className='flex  items-center '>
-                    <img src="./Highlights-img/fund_img.svg" alt="" className='image-icon' />
-                    <p className='text-3xl '>Finding Ways to
-                        Funding Homes</p>
-                </div>
-            </div> */}
-                <h1 className='marginal val-heading w-[86%] m-auto'>Our Values</h1>
+            <div className='grid lg:grid-cols-2 disc-section  sm:grid-cols-1  gap-4  w-full ' >
 
-            <div className='grid disc-section lg:grid-cols-6 sm:grid-cols-1 gap-4 items-center sm:justify-start mt-16 '>
-                <div className=' flex justify-center '>
+                <div className='flex flex-col'>
+                    <p className='val-heading text-[#006b95]'>Vision</p>
+                    <div className='flex items-center '>
+                        <img src="./Highlights-img/housing_img.svg" alt="" className='image-icon' />
+                        <p className='text-3xl '>Housing
+                            for All</p>
+                    </div>
+                </div>
+                <div className='flex flex-col'>
+                    <p className='val-heading text-[#006b95]'>Mission</p>
+                            <div className='flex  items-center '>
+                                <img src="./Highlights-img/fund_img.svg" alt="" className='image-icon' />
+                                <p className='text-3xl '>Finding Ways to
+                                    Funding Homes</p>
+                            </div>
+                </div>
+            </div>
+              
+
+            <div className='disc-section mt-8'>
+            <h1 className='marginal val-heading w-full text-[#006b95]'>Our Values</h1>
+            <div className='grid  lg:grid-cols-6 sm:grid-cols-1 gap-4 items-center sm:justify-start mt-2'>
+                <div className='flex flex-col justify-center relative'>
                     <img src="./Highlights-img/diamond_img.svg" alt="" className='image-icon ' />
                 </div>
                 <div className='relative  flex justify-center '>
@@ -110,6 +128,7 @@ export default function LandingPage() {
                     <img src="./Highlights-img/water_bubble.svg" alt="" className='water-bubble' />
                     <span className='absolute inset-0 top-[25%] left-[52%] text-2xl'>Empathy</span>
                 </div>
+            </div>
             </div>
             <BodSlider />
             <Quote />
