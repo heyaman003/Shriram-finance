@@ -68,7 +68,7 @@ const AdoptingDigitisation = () => {
         </h2>
         <img className="w-[]" src="/src/assets/Logos.png"></img>
       </div>
-      <div className="pl-8" >
+      <div className="lg:pl-8" >
         <h2 className="font-bold text-[#0098b6] text-2xl ">Data privacy and security</h2>
         <p className="paragraph text-[#575756] text-xl">
           At SHFL, our dedication to safeguarding client data is evident through
