@@ -21,6 +21,7 @@ import LandingPage from './pages/Home/LandingPage';
 import Journey from './pages/Journey/Journey';
 import Empowering from './pages/Empowerment/Empowering';
 import Affordability from './pages/Empowerment/Affordability';
+import MeasuringPerfomance from './pages/MeasuringPerfomance';
  
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
 <Route path='/Journey' element={<Journey/>}/>
 <Route path='/Empowering' element={<Empowering/>}/>
 <Route path='/Affordability' element={<Affordability/>}/>
+<Route path='/Progress' element={<MeasuringPerfomance/>}/>
 </Routes>
 </BrowserRouter>
     </>
