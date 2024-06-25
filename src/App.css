@@ -3,6 +3,10 @@
   width: 500px;
   
 }
+.container-margin{
+   width: 86%;
+   margin: auto;
+}
 
 @font-face {
   font-family: 'Museo Sans 500';

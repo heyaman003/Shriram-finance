@@ -1,7 +1,7 @@
 
 function Empowering() {
   return (
-    <div className="p-8">
+    <div className="container-margin">
           <p className="text-5xl text-[#006b95] font-extrabold">Empowering People with Affordable
            Housing Finance Solutions</p>
            <br />
@@ -12,7 +12,7 @@ function Empowering() {
             Shriram Group (which has a rich legacy of more than five decades) and are
             backed by Shriram Finance Limited.</p>
              <br />
-            <div className="grid  lg:grid-cols-2 gap-2 sm:grid-cols-1 p-4 ">
+            <div className="grid  lg:grid-cols-2 gap-2 sm:grid-cols-1 ">
                 <div className="max-w-[80%] text-xl">
                     <p>As the third-largest affordable housing
                     finance company in India, our primary focus
@@ -56,7 +56,7 @@ function Empowering() {
                     affordable and accessible.</p>
                 </div>
                 <div className="">
-                      <img src="./Empowering-img/Emp_img-1.png" alt=""className="w-[540px]" />
+                      <img src="./Empowering-img/Emp_img-1.png" alt=""className="w-[540]" />
                 </div>
             </div>
             <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-4 mt-4">
@@ -65,7 +65,7 @@ function Empowering() {
                    <img src="./Empowering-img/Emp_img-4.svg" alt="" />
             </div>
             <div className="mt-4">
-                 <img width={500} src="./Empowering-img/Emp_img-8.svg" alt="" className="pl-6" />
+                 <img width={500} src="./Empowering-img/Emp_img-8.svg" alt="" className="" />
                  <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-4 mt-4">
                    <img src="./Empowering-img/Emp_img-5.svg" alt="" />
                    <img src="./Empowering-img/Emp_img-6.svg" alt="" />
