@@ -3,18 +3,18 @@ import "./Chairman.css"
 
 const EmpoweringCommunities = () => {
   return (
-    <div className="w-full mt-10">
+    <div className="container-margin">
       <div className="w-full mt-10">
-        <h1 className=" text-center mb-8 text-[#0098b6]  font-bold  text-4xl">
+        <h1 className="mb-8 text-[#0098b6]  font-bold  title-page lg:text-6xl">
           Empowering the Growth of our Communities
         </h1>
       </div>
       <div className="gap-8 flex items-center sm:flex-col md:flex-row w-full ">
         <div>
-          <h2 className="font-bold text-[#0098b6] text-xl">
+          <h2 className="font-bold text-[#0098b6] text-2xl">
             Industry Ready Program: Apprenticeship Program to Support Graduates
           </h2>
-          <p className="paragraph text-[#575756]">
+          <p className="paragraph text-[#575756]  text-xl">
             SHFL’s apprenticeship program, authorized by the Ministry of
             Corporate Affairs under their CSR initiative, provides graduates
             with a comprehensive training experience. The program combines
@@ -33,10 +33,10 @@ const EmpoweringCommunities = () => {
       <div className="gap-8 flex items-center sm:flex-col md:flex-row w-full ">
         
         <div>
-          <h1 className="font-bold text-[#0098b6] text-xl">
+          <h1 className="font-bold text-[#0098b6] text-2xl">
             Project Sakhi: A Sustainable Solution for a Healthier Tomorrow
           </h1>
-          <p className="paragraph text-[#575756]">
+          <p className="paragraph text-[#575756]  text-xl">
             RNisarg Foundation, a sustainability-focused NGO, leads Project
             Sakhi, a flagship program dedicated to promoting menstrual health
             and hygiene among Adivasi women residing in remote villages and
@@ -52,11 +52,11 @@ const EmpoweringCommunities = () => {
       </div>
       <div className="gap-8 flex items-center sm:flex-col md:flex-row w-full ">
         <div >
-          <h2 className="font-bold text-[#0098b6] text-xl">
+          <h2 className="font-bold text-[#0098b6] text-2xl">
             SHFL Supports Sparsh Hospice: Investing in Health Care and
             Sanitation, Investing in Community
           </h2>
-          <p className="paragraph text-[#575756]">
+          <p className="paragraph text-[#575756]  text-xl">
             SHFL has partnered with Sparsh Hospice, a non-profit organization
             established in September 2011 to provide palliative care for
             individuals suffering from severe illnesses like advanced cancer,
@@ -77,11 +77,11 @@ const EmpoweringCommunities = () => {
       <div className="gap-8 flex items-center sm:flex-col md:flex-row w-full">
        
         <div>
-          <h2 className="font-bold text-[#0098b6] text-xl">
+          <h2 className="font-bold text-[#0098b6] text-2xl">
             Project at Sapna Ranch: Ensuring environmental sustainability,
             ecological balance.
           </h2>
-          <p className=" w-[90%] paragraph text-[#575756]">
+          <p className=" w-[90%] paragraph text-[#575756]  text-xl">
             Zemyna Foundation, a non-profit organization registered under the
             Companies Act, 2013, focuses on empowering women through education
             and awareness programs. Led by Ms. Namrata Arora, the foundation

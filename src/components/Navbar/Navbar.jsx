@@ -12,7 +12,9 @@ import { motion } from "framer-motion";
   };
 
   const handleMouseOut = () => {
-    imageHolderRef.current.src = "/nestle-logo.png";
+
+    imageHolderRef.current.src = './Nav-img/shriram-logo.svg';
+
   };
 
   useEffect(() => {

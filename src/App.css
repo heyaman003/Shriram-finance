@@ -3,7 +3,17 @@
   width: 500px;
   
 }
+.container-margin{
+   width: 86%;
+   margin: auto;
+}
+.title-page{
+   font-size: 8vw;
+}
 
+.subtitle-page{
+  font-size: 5vw;
+}
 @font-face {
   font-family: 'Museo Sans 500';
   src: url('./Fonts/MuseoSans-300.woff') format('woff2'),

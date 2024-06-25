@@ -38,7 +38,7 @@ function App() {
 
 
 
-<Route path='/Chairman-message' element={<Chairman/>}/>
+<Route path='/Chairman' element={<Chairman/>}/>
 <Route path='/CFO' element={<CFO/>}/>
 <Route path='/BOD' element={<BOD/>}/>
 <Route path='/ManagementTeam' element={<ManagementTeam/>}/>
@@ -55,6 +55,7 @@ function App() {
 <Route path='/Empowering' element={<Empowering/>}/>
 <Route path='/Affordability' element={<Affordability/>}/>
 <Route path='/Progress' element={<MeasuringPerfomance/>}/>
+<Route path='/EffectiveGovernance' element={<EffectiveGovernance/>}/>
 </Routes>
 </BrowserRouter>
     </>

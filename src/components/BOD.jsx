@@ -3,10 +3,10 @@ import "./Chairman.css";
 
 const BOD = () => {
   return (
-    <div className="w-full mt-10">
+    <div className="container-margin">
       {/* ------------------------------------------------------------------------------------------- */}
       <div className="mt-5 align-middle border-black ">
-        <h1 className=" text-center text-[#0098b6]  font-bold  text-4xl pb-5">
+        <h1 className="text-[#0098b6]  font-bold title-page lg:text-6xl pb-8">
           Profile of the Board of Directors
         </h1>
 
