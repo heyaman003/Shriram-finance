@@ -72,54 +72,41 @@ const   Navbar = () => {
             <div className='nav-menu-wrap'>
               <div>
               <ul>
-                <b>Know BALCO</b>
+                <b>Know Shriram</b>
 
-                <li><Link onClick={() => toggleNav()} to="/at-a-glance" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>BALCO at a glance</Link></li>
+                <li><Link onClick={() => toggleNav()} to="/" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Home</Link></li>
+                <li><Link onClick={() => toggleNav()} to="/Chairman-message" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Chairman Message</Link></li>
 
-                <li><Link onClick={() => toggleNav()} to="/core-values" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Core Values</Link></li>
+                <li><Link onClick={() => toggleNav()} to="/CFO" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>CFO</Link></li>
 
-                <li><Link onClick={() => toggleNav()} to="/product" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Product Portfolio</Link></li>
+                <li><Link onClick={() => toggleNav()} to="/BOD" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>BOD</Link></li>
 
-                <li><Link onClick={() => toggleNav()} to="/chairmanmsg" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Chairman's Communique</Link></li>
+                <li><Link onClick={() => toggleNav()} to="/ManagementTeam" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Management Team</Link></li>
 
-                <li><Link onClick={() => toggleNav()} to="/ceomsg" >Letter from CEO</Link></li>
+                <li><Link onClick={() => toggleNav()} to="/PeopleCore" >People Core</Link></li>
 
-                <li><Link onClick={() => toggleNav()} to="/cfomsg" >CFO's message</Link></li>
+                <li><Link onClick={() => toggleNav()} to="/NavigatingChallenges" >Navigating Challenges</Link></li>
 
               </ul>
               <ul>
                 <b>Business Overview</b>
-                <li><Link onClick={() => toggleNav()} to="/value-creation-model" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Value creation model</Link></li>
-                <li><Link onClick={() => toggleNav()} to="/stakeholder-engagement" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Stakeholder engagement</Link></li>
-                <li><Link onClick={() => toggleNav()} to="/materiality-assessment" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Materiality assessment</Link></li>
-                <li><Link onClick={() => toggleNav()} to="/risk-management" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Risk management</Link></li>
-                <li><Link onClick={() => toggleNav()} to="/about-esg" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>About ESG</Link></li>
-                <li><Link onClick={() => toggleNav()} to="/transforming-for-good" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Transforming for good</Link></li>
-                <li><Link onClick={() => toggleNav()} to="/vsf-vsap" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>VSF and VSAP</Link></li>
-                <li><Link onClick={() => toggleNav()} to="/profiles" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Profiles of the Board of Directors
+                <li><Link onClick={() => toggleNav()} to="/EmpoweringCommunities" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Empowering Communities</Link></li>
+                <li><Link onClick={() => toggleNav()} to="/BusinessModel" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Business Model</Link></li>
+                <li><Link onClick={() => toggleNav()} to="/AdoptingDigitisation" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Adopting Digitisation</Link></li>
+                <li><Link onClick={() => toggleNav()} to="/FinancialInclusion" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Financial Inclusion</Link></li>
+                <li><Link onClick={() => toggleNav()} to="/RobustProcess" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Robust Process</Link></li>
+                <li><Link onClick={() => toggleNav()} to="/LeadingFinancialAgility" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Leading Financial Agility</Link></li>
+                <li><Link onClick={() => toggleNav()} to="/ExploringNewFrontiers" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Exploring New Frontiers</Link></li>
+                <li><Link onClick={() => toggleNav()} to="/Journey" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Journey
+                </Link></li>
+                <li><Link onClick={() => toggleNav()} to="/Empowering" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Empowering
+                </Link></li>
+                <li><Link onClick={() => toggleNav()} to="/Affordability" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Affordability
                 </Link></li>
               </ul>
               </div>
               <div>
-              <ul>
-                <b>Capitals</b>
-                <li><Link onClick={() => toggleNav()} to="/financial-capital" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Financial Capital</Link></li>
-
-                <li><Link onClick={() => toggleNav()} to="/manufactured-capital" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Manufactured Capital</Link></li>
-
-                <li><Link onClick={() => toggleNav()} to="/intellectual-capital" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Intellectual Capital</Link></li>
-
-                <li><Link onClick={() => toggleNav()} to="/human-capital" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Human Capital</Link></li>
-
-                <li><Link onClick={() => toggleNav()} to="/sr-capital" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Social and Relationship Capital</Link></li>
-
-                <li><Link onClick={() => toggleNav()} to="/natural-capital" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Natural Capital</Link></li>
-              </ul>
-              <ul>
-                <b>Awards and Certifications</b>
-                <li><Link onClick={() => toggleNav()} to="/awards" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Awards and accolades</Link></li>
-                <li><Link onClick={() => toggleNav()} to="/certifications" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Certifications</Link></li>
-              </ul>
+             
               <ul>
                 <li><Link onClick={() => toggleNav()} to="./docs/Statutory Reports.pdf" target='_blank' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Statutory Reports</Link></li>
                 <li><Link onClick={() => toggleNav()} to="./docs/Financial Statements.pdf" target='_blank' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Financial Statements</Link></li>
