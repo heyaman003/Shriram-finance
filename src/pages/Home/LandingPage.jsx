@@ -3,8 +3,8 @@ import './LandingPage.css'
 export default function LandingPage() {
   return (
     <>
-       <div className='grid lg:grid-cols-2 gap-4 sm:grid-cols-1 sm:text-center bg-[#d9eef2]  p-4 w-full'>
-            <div className='relative flex justify-center items-center lg:w-[39vw] ml-16 '>
+       <div className='grid lg:grid-cols-2 gap-4 sm:grid-cols-1 sm:text-center bg-[#d9eef2]  p-4 w-full m-auto'>
+            <div className='relative flex justify-center items-center lg:w-[39vw] m-auto '>
                     <img src="./LandingPage-img/landing_img-1.svg" alt="" className='animate-rotate'/>
                     <div className='absolute flex justify-center items-center lg:w-[34vw]'>
                         <img src="./LandingPage-img/landing_img-2.svg" alt="" className='animate-counterRotate'/>
@@ -12,12 +12,12 @@ export default function LandingPage() {
                             <img src="./LandingPage-img/landing_img-3.svg" alt="" className='animate-rotate'/>
                         </div>
                     </div>
-                    <div className='absolute z-10 main-img lg:w-[30vw]'>
+                    <div className='absolute z-10 main-img lg:w-[30vw] sm:w-[20vw]'>
                         <img src="./LandingPage-img/landing_img-4.svg" alt="" />
                     </div>
             </div>
-            <div className='flex justify-center items-center lg:text-6xl sm:text-2xl '>
-                <div className='flex flex-col items-start'>
+            <div className='flex justify-center items-center lg:text-6xl sm:text-2xl m-auto'>
+                <div className='flex flex-col items-start landing-page-hero-container'>
                     <h1 class='font-bebas font-600  gradient-border'>EMPOWERING <span class='text-[#0098B3]'> PEOPLE</span></h1>
                     <br />
                     <h1 class='font-bebas font-600  gradient-border'><span class='text-[#0098B3]'>ENHANCING </span>GROWTH</h1>
@@ -106,7 +106,7 @@ export default function LandingPage() {
            </div>
        </div>
 
-       <div className='grid lg:grid-cols-2  sm:grid-cols-1 gap-4 justify-center items-center mt-16 mb-8'>
+       <div className='grid lg:grid-cols-2  sm:grid-cols-1 gap-4 justify-center items-center mt-16 mb-8 background-patch p-4'>
             <div className='portfolio overflow-hidden  ml-[10%] '>
                 <img src="./Highlights-img/portfolio_img.svg" alt="" className='portfolio_img'/>
             </div>

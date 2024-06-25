@@ -50,7 +50,6 @@ function App() {
 <Route path='/RobustProcess' element={<RobustProcess/>}/>
 <Route path='/LeadingFinancialAgility' element={<LeadingFinancialAgility/>}/>
 <Route path='/ExploringNewFrontiers' element={<ExploringNewFrontiers/>}/>
-<Route path='/Chairman-message' element={<Chairman/>}/>
 <Route path='/Journey' element={<Journey/>}/>
 <Route path='/Empowering' element={<Empowering/>}/>
 <Route path='/Affordability' element={<Affordability/>}/>

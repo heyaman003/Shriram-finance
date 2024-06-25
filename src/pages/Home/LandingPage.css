@@ -4,7 +4,7 @@
    top: 4%;
    left: 22%;
 }
-
+ 
 .gradient-border {
     position: relative;
     display: inline-block;
@@ -67,7 +67,14 @@
 .bg{
     border: 1px solid red;
 }
-
+.landing-page-hero-container h1{
+font-size: 36px;
+}
+@media screen and (max-width:1600px){
+    .main-img{
+        left: 18%;
+    }  
+}
 @media screen and (max-width: 600px) {
    .major-data{
       font-size: 1.5em;;
@@ -75,5 +82,14 @@
    .major-categ{
     font-size: 1em;
    }
+   .landing-page-hero-container h1{
+    font-size: 22px;
+    }
+    .main-img{
+        left: 13%;
+    }  
   
+  }
+  .background-patch{
+    background: linear-gradient(to right, rgb(128, 191, 208,0.1) ,rgb(51, 138, 162,0.2));
   }
