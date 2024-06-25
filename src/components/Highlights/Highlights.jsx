@@ -7,13 +7,13 @@ const callouts = [
   { id: 2, title: '155 ', text: 'Branches' },
   { id: 3, title: '16 ', text: 'States' },
   { id: 4, title: 'AA+/Stable ', text: 'Credit Rating' },
-  { id: 5, title: '3,232 ', text: 'Personnel' },
+  { id: 5, title: '₹3,232', text: 'Personnel' },
   { id: 6, title: '2,10,000+', text: 'Customers served' },
-  { id: 7, title: 'J13,762 crore', text: 'Asset Under Management (AUM) \u000aAs of 31st March 2024 \u000a 71% Y-o-Y growth' },
-  { id: 8, title: 'J7,591 crore', text: 'Disbursals in FY24 \u000a 83% Y-o-Y growth' },
-  { id: 9, title: 'J1,429.60 crore', text: 'Total Revenue \u000a 82.4% Y-o-Y growth' },
-  { id: 10, title: 'J217.40 crore', text: 'Profit after Tax for FY 24 \u000a 58% Y-o-Y growth' },
-  { id: 11, title: 'J1,924 crore', text: 'Net Worth \u000a48% Y-o-Y growth1' },
+  { id: 7, title: '₹13,762 crore', text: 'Asset Under Management (AUM) \u000aAs of 31st March 2024 \u000a 71% Y-o-Y growth' },
+  { id: 8, title: '₹7,591 crore', text: 'Disbursals in FY24 \u000a 83% Y-o-Y growth' },
+  { id: 9, title: '₹1,429.60 crore', text: 'Total Revenue \u000a 82.4% Y-o-Y growth' },
+  { id: 10, title: '₹217.40 crore', text: 'Profit after Tax for FY 24 \u000a 58% Y-o-Y growth' },
+  { id: 11, title: '₹1,924 crore', text: 'Net Worth \u000a48% Y-o-Y growth1' },
   { id: 12, title: '3rd largest ', text: 'Affordable Housing \u000aFinance company in India' },
   { id: 13, title: 'Fastest ', text: 'growing AHFC in the \u000acountry' },
   { id: 14, title: 'Strong ', text: 'leadership team driving\u000a quality business growth' },
@@ -21,6 +21,7 @@ const callouts = [
   { id: 16, title: 'Great Place \u000ato Work', text: 'For the 3rd time in a row' },
   { id: 17, title: 'Top 50 Best Workplaces \u000ain BFSI (GPTW)', text: 'For the 2nd consecutive year' },
 ];
+
 
 const MHighlights = () => {
   return (

@@ -3,7 +3,7 @@ import './MajorHighlights.css'
 
 export default function MajorHighlights() {
   return (
-   <div className='p-8 bg-gradient-to-r from-[#026E89] to-[#005067]'>
+   <div className='p-8 '>
      <div>
      <h1 className="flex justify-center text-6xl mb-8 mt-8 text-white font-bold">Major Highlights of FY24</h1>
      <div className="flex justify-evenly space-x-12 items-center b">
