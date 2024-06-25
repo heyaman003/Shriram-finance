@@ -2,17 +2,16 @@
 function Empowering() {
   return (
     <div className="container-margin">
-          <p className="text-5xl text-[#006b95] font-extrabold">Empowering People with Affordable
+          <p className="lg:text-5xl title-page text-[#006b95] font-extrabold sm:text-4xl ">Empowering People with Affordable
            Housing Finance Solutions</p>
-           <br />
-          <p className="text-[#52a7bc] text-3xl font-bold">By fulfilling people’s aspirations of home ownership, we at Shriram Housing
+          <p className="text-[#52a7bc] subtitle-page lg:text-3xl font-bold mt-16">By fulfilling people’s aspirations of home ownership, we at Shriram Housing
             Finance Limited (SHFL) have emerged as a pillar of support within India’s
             housing finance sector. Incorporated in November 2010 and regulated by
             the National Housing Bank (NHB), we are an integral part of the esteemed
             Shriram Group (which has a rich legacy of more than five decades) and are
             backed by Shriram Finance Limited.</p>
-             <br />
-            <div className="grid  lg:grid-cols-2 gap-2 sm:grid-cols-1 ">
+    
+            <div className="grid  bg-gray-50 lg:grid-cols-2 gap-2 sm:grid-cols-1 mt-16 p-8">
                 <div className="max-w-[80%] text-xl">
                     <p>As the third-largest affordable housing
                     finance company in India, our primary focus
@@ -59,13 +58,13 @@ function Empowering() {
                       <img src="./Empowering-img/Emp_img-1.png" alt=""className="w-[540]" />
                 </div>
             </div>
-            <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-4 mt-4">
+            <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-4 mt-8">
                    <img src="./Empowering-img/Emp_img-2.svg" alt="" />
                    <img src="./Empowering-img/Emp_img-3.svg" alt="" />
                    <img src="./Empowering-img/Emp_img-4.svg" alt="" />
             </div>
-            <div className="mt-4">
-                 <img width={500} src="./Empowering-img/Emp_img-8.svg" alt="" className="" />
+            <div className="mt-8 mb-16">
+                 <img  src="./Empowering-img/Emp_img-8.svg" alt="" className="w-1/4 pl-8" />
                  <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-4 mt-4">
                    <img src="./Empowering-img/Emp_img-5.svg" alt="" />
                    <img src="./Empowering-img/Emp_img-6.svg" alt="" />

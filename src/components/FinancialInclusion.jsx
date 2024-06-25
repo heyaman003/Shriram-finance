@@ -3,20 +3,20 @@ import "./Chairman.css";
 
 const FinancialInclusion = () => {
   return (
-    <div className="w-full mt-10">
+    <div className="container-margin">
       <div className="w-full">
-        <h1 className=" text-center text-[#0098b6]  font-bold  text-4xl">
+        <h1 className="text-[#0098b6]  font-bold title-page lg:text-6xl">
           Making Financial Inclusion a Reality for All
         </h1>
 
-        <p className="paragraph pt-6 font-medium text-2xl text-[#0098b6] ">
+        <p className="paragraph pt-6 font-medium subtitle-page lg:text-2xl text-[#0098b6] ">
           Our mission is to empower individuals to achieve their dreams of
           homeownership by providing personalised support through dedicated
           relationship managers available via call centres, portals and mobile
           apps. Our commitment to expanding our reach ensures that more people
           have the opportunity to turn their homeownership dreams into reality.
         </p>
-        <p className="paragraph text-[#575756]">
+        <p className="paragraph text-[#575756]  text-xl">
           A well-managed in-house collection system that uses customised tactics
           for every collecting bucket, including telemarketing and app-based
           reminders, is in place. With a focus on digital collections, we want
@@ -26,10 +26,10 @@ const FinancialInclusion = () => {
       </div>
 
       <div>
-        <h2 className="font-bold text-[#0098b6] text-xl">
+        <h2 className="font-bold text-[#0098b6] text-2xl">
           Reaching every corner of India
         </h2>
-        <p className=" paragraph text-[#575756]">
+        <p className=" paragraph text-[#575756]  text-xl">
           We operate a vast network of branches and touchpoints spanning
           numerous states. Our priority is to positively impact the lives of our
           growing customer base while establishing dominance in key markets.
@@ -81,16 +81,16 @@ const FinancialInclusion = () => {
           <p className="text-[#575756]">Focused zones</p>
         </div>
       </div>
-      <div>
-        <h2 className="font-bold text-[#0098b6] text-xl">Customer engagement</h2>
-        <p className=" paragraph text-[#575756]">
+      <div className="mt-8">
+        <h2 className="font-bold text-[#0098b6] text-2xl ">Customer engagement</h2>
+        <p className=" paragraph text-[#575756]  text-xl">
           The integration of the customer portal and SHFL Loans App streamlines
           the loan collection process, offering customers a secure, self-service
           platform for managing loans, making payments and resolving any
           concerns that they may face in this process. This enhances the overall
           customer experience and minimises delinquency risks.
         </p>
-        <p className=" paragraph text-[#575756]">
+        <p className=" paragraph text-[#575756]  text-xl">
           Online payment methods accelerate business and reduce missed payments.
           Access to loan details empowers customers, preventing confusion. By
           enabling independent loan management, the portal lessens the reliance
@@ -98,7 +98,7 @@ const FinancialInclusion = () => {
           targeted messages ease communication, relieving the workload on
           agents.
         </p>
-        <p className=" paragraph text-[#575756]">
+        <p className=" paragraph text-[#575756]  text-xl">
           Digital initiatives, including automated reminders and online payment
           portals, further streamline collections. Additionally, the launch of
           our new CRM platform, Talisma, digitises customer service. The
@@ -109,7 +109,7 @@ const FinancialInclusion = () => {
           practices.
         </p>
       </div>
-      <div className="mb-8">
+      <div className="mb-8 mt-8">
         <img src="/src/assets/SRMap.png"></img>
       </div>
 
@@ -140,8 +140,8 @@ const FinancialInclusion = () => {
       </div>
 
       <div className="mb-8">
-        <h2 className="font-bold text-[#0098b6] text-xl">Financial inclusion</h2>
-        <p className=" paragraph text-[#575756]">
+        <h2 className="font-bold text-[#0098b6] text-2xl">Financial inclusion</h2>
+        <p className=" paragraph text-[#575756]  text-xl">
           We are committed to removing the obstacles in the path to
           homeownership by tailoring our loan products to the unique needs of
           underserved communities. Our goal is to empower individuals with the
@@ -150,7 +150,7 @@ const FinancialInclusion = () => {
         </p>
       </div>
 
-      <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row">
+      <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row mt-8 mb-8">
         <div>
           <h1 className="text-[#7cc4a9] font-extrabold text-2xl">
             <span className="text-5xl">96%</span>

@@ -3,8 +3,8 @@ import "./Chairman.css";
 
 const Chairman = () => {
   return (
-    <div className="w-full">
-      <h1 className="text-center text-[#0098b6]  font-bold pb-10 text-4xl">
+    <div className="container-margin">
+      <h1 className=" text-[#0098b6]  font-bold pb-10 title-page lg:text-6xl">
         Message from MD & CEO
       </h1>
 
@@ -15,7 +15,7 @@ const Chairman = () => {
           alt="Chairman"
         />
 
-        <text className=" text-[#0098b6] md:pt-16 sm:pt-4 text-2xl">
+        <text className=" text-[#0098b6] md:pt-16 sm:pt-4 subtitle-page lg:text-2xl">
           <img
             className="pb-6  "
             src="/src/assets/quote.svg"
@@ -36,8 +36,8 @@ const Chairman = () => {
       </div>
       <br />
 
-      <p className="font-bold text-xl text-[#0098b6] ">Dear Shareholders,</p>
-      <p className="text-[#575756]">
+      <p className="font-bold  text-[#0098b6] text-2xl">Dear Shareholders,</p>
+      <p className="text-[#575756] text-xl">
         Looking back at the year with contentment, I am honoured to present to
         you the Annual Report, which showcases the robust growth we have
         achieved, demonstrating the strength of our business model. We achieved
@@ -50,8 +50,8 @@ const Chairman = () => {
       </p>
       <section>
         <br />
-        <h2 className=" text-lg	 font-bold text-[#7cc4a9]">Macro environment</h2>
-        <p className="text-[#575756]">
+        <h2 className="  font-bold text-[#7cc4a9] text-2xl">Macro environment</h2>
+        <p className="text-[#575756] text-xl">
           Despite elevated interest rate and global economic headwinds, the
           affordable housing finance market has maintained healthy portfolio
           quality, revenue, and profitability. While we may witness continuation
@@ -67,10 +67,10 @@ const Chairman = () => {
       </section>
       <br />
       <section>
-        <h2 className="text-lg	 font-bold text-[#7cc4a9]">
+        <h2 className=" font-bold text-[#7cc4a9] text-2xl">
           Financial inclusion
         </h2>
-        <p className="text-[#575756]">
+        <p className="text-[#575756] text-xl">
           The government’s focus on financial inclusion, increasing financial
           literacy, and mobile penetration have paved the way for a more
           inclusive financial system, resulting in a surge in demand for
@@ -89,8 +89,8 @@ const Chairman = () => {
       </section>
       <br />
       <section>
-        <h2 className="text-lg	font-bold text-[#7cc4a9]">Our performance</h2>
-        <p className="text-[#575756]">
+        <h2 className="font-bold text-[#7cc4a9] text-2xl">Our performance</h2>
+        <p className="text-[#575756] text-xl">
           We have achieved remarkable performance in the year under review. Our
           distribution across the affordable housing market has been expanding,
           we are now catering from 155 branches spread across 16 states. Our
@@ -108,8 +108,8 @@ const Chairman = () => {
       </section>
       <br />
       <section>
-        <h2 className="text-lg	font-bold text-[#7cc4a9]">Sustained growth</h2>
-        <p className="text-[#575756]">
+        <h2 className="font-bold text-[#7cc4a9] text-2xl">Sustained growth</h2>
+        <p className="text-[#575756] text-xl">
           Our strategy is to grow SHFL as a national player with dominance
           across our key markets, such as the southern states, Gujarat, and
           Maharashtra while expanding our national footprint and doubling our
@@ -122,8 +122,8 @@ const Chairman = () => {
       <br />
       <section>
       <img width={400} src="/src/assets/Chairman2.webp"></img>
-        <h2 className="text-lg	font-bold text-[#7cc4a9]">Underwriting</h2>
-        <p className="text-[#575756]">
+        <h2 className="	font-bold text-[#7cc4a9] text-2xl">Underwriting</h2>
+        <p className="text-[#575756] text-xl">
           Our watertight underwriting processes and credit policy play a pivotal
           role in mitigating credit risks. Our decentralised credit functions
           with multiple control points and has comprehensive quantitative checks
@@ -153,10 +153,10 @@ const Chairman = () => {
       </section>
       <br />
       <section>
-        <h2 className="text-lg	font-bold text-[#7cc4a9]">
+        <h2 className="text-2xl	font-bold text-[#7cc4a9]">
           Customer-centric digital transformation
         </h2>
-        <p className="text-[#575756]">
+        <p className="text-[#575756] text-xl">
           At Shriram Housing Finance, we recognise technology as a key driver of
           efficiency and improved customer experience. We are continuously
           improving our technology stack to benefit both customers and
@@ -176,8 +176,8 @@ const Chairman = () => {
       </section>
       <br />
       <section>
-        <h2 className="text-lg	font-bold text-[#7cc4a9]">Our people</h2>
-        <p className="text-[#575756]">
+        <h2 className="font-bold text-[#7cc4a9] text-2xl">Our people</h2>
+        <p className="text-[#575756] text-xl">
           Our employees are the foundation of our growth and success. We firmly
           believe that diverse companies are more successful and strive to
           promote diversity through our HR policies and gender-friendly work
@@ -212,8 +212,8 @@ const Chairman = () => {
       </section>
       <br />
       <section>
-        <h2 className="text-lg	font-bold text-[#7cc4a9]">Sustainability</h2>
-        <p className="text-[#575756]">
+        <h2 className="	font-bold text-[#7cc4a9] text-2xl pb-4">Sustainability</h2>
+        <p className="text-[#575756] text-xl">
           Sustainability is a core focus area for us, and our partnership with
           the International Finance Corporation (IFC) aims to promote the
           construction of green, self-built, low-cost houses in India. We
@@ -226,8 +226,8 @@ const Chairman = () => {
       </section>
       <br />
       <section>
-        <h2 className="text-lg	font-bold text-[#7cc4a9]">Way forward</h2>
-        <p className="text-[#575756]">
+        <h2 className="font-bold text-[#7cc4a9] text-2xl">Way forward</h2>
+        <p className="text-[#575756] text-xl">
           As we look ahead, we have a clear vision for the future. Our immediate
           focus is on expanding into new territories while maintaining our
           strong hold in markets we dominate. Our team is the key differentiator

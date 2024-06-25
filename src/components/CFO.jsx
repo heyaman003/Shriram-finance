@@ -3,8 +3,8 @@ import "./Chairman.css";
 
 const CFO = () => {
   return (
-    <div className="w-full">
-      <h1 className="text-center text-[#0098b6]  font-bold my-10 text-4xl">
+    <div className="container-margin">
+      <h1 className=" text-[#0098b6]  font-bold mb-8 title-page lg:text-6xl">
         Message from WTD & CFO
       </h1>
 
@@ -15,7 +15,7 @@ const CFO = () => {
           alt="Chairman"
         />
 
-        <text className=" text-[#0098b6]  pt-16 text-2xl">
+        <text className=" text-[#0098b6]  pt-16 subtitle-page lg:text-2xl">
           <img
             className="pb-6  "
             src="/src/assets/quote.svg"
@@ -39,9 +39,9 @@ const CFO = () => {
       </div>
       <br />
 
-      <p className="font-bold text-xl text-[#0098b6] ">Dear Shareholders,</p>
+      <p className="font-bold  text-[#0098b6]  text-2xl mb-4">Dear Shareholders</p>
       <section className="text-[#575756]">
-        <div>
+        <div className="text-xl">
           <p>
             With immense pleasure and satisfaction, I present to you the major
             highlights of the preceding financial year. Though the outcome of

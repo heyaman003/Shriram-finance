@@ -2,18 +2,18 @@ import React from "react";
 
 const AdoptingDigitisation = () => {
   return (
-    <div>
-      <div>
-        <h1 className=" text-center text-[#0098b6]  font-bold  text-4xl">
+    <div className="container-margin mb-8">
+      <div className="mt-4 mb-4">
+        <h1 className=" text-[#0098b6]  font-bold title-page lg:text-6xl">
           Adopting Digitisation
         </h1>
 
-        <p className="paragraph pt-6 font-medium text-2xl text-[#0098b6] ">
+        <p className="paragraph pt-6 font-medium subtitle-page lg:text-2xl text-[#0098b6] ">
           Since the outset, we have been driven by the credo of making housing
           finance affordable. To this end, we leverage Artificial Intelligence
           (AI), blockchain and digitisation for enhanced operations.
         </p>
-        <p className="paragraph text-[#575756]">
+        <p className="paragraph text-[#575756]  text-xl">
           With a vision to become the largest affordable housing finance company
           by 2026, we focus on market dominance in key regions, expanding our
           national footprint and doubling our branch presence. By employing
@@ -24,11 +24,11 @@ const AdoptingDigitisation = () => {
         </p>
       </div>
 
-      <div>
-        <h2 className="font-bold text-[#0098b6] text-xl">
+      <div className="mt-4 mb-4">
+        <h2 className="font-bold text-[#0098b6] text-2xl">
           Improving customer experience through innovative solutions
         </h2>
-        <p className="paragraph text-[#575756]">
+        <p className="paragraph text-[#575756]  text-xl">
           RNisarg Foundation, a sustainability-focused NGO, leads Project Sakhi,
           a flagship program dedicated to promoting menstrual health and hygiene
           among Adivasi women residing in remote villages and tribal
@@ -39,11 +39,11 @@ const AdoptingDigitisation = () => {
         </p>
       </div>
         
-      <div>
-        <h2 className="font-bold text-[#0098b6] text-xl">
+      <div className="mt-4 mb-4">
+        <h2 className="font-bold text-[#0098b6] text-2xl">
           Advancing operations through digital transformation
         </h2>
-        <p className="paragraph text-[#575756]">
+        <p className="paragraph text-[#575756]  text-xl">
           We are transforming data governance, process management and product
           development by utilising efficient platforms and cutting-edge
           infrastructure to scale our operations effectively. Our solution
@@ -63,14 +63,14 @@ const AdoptingDigitisation = () => {
       
 <div className="flex sm:flex-col md:flex-row">
       <div>
-        <h2 className="font-bold mb-8 text-[#0098b6] text-xl">
+        <h2 className="font-bold mb-8 text-[#0098b6] text-2xl">
           Collaboration and Partnership
         </h2>
         <img className="w-[]" src="/src/assets/Logos.png"></img>
       </div>
-      <div >
-        <h2 className="font-bold text-[#0098b6] text-xl">Data privacy and security</h2>
-        <p className="paragraph text-[#575756]">
+      <div className="pl-8" >
+        <h2 className="font-bold text-[#0098b6] text-2xl ">Data privacy and security</h2>
+        <p className="paragraph text-[#575756] text-xl">
           At SHFL, our dedication to safeguarding client data is evident through
           our strict adherence to the ISO 27001 framework. Our proactive stance
           on cybersecurity risks is demonstrated through the deployment of
