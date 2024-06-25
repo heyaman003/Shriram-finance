@@ -1,0 +1,33 @@
+.footer-container {
+    background-color: #0e4d7f; /* Adjust as needed */
+    padding: 1% 0; /* Adjust padding as needed */
+    color: #ffff;
+  }
+  .marginal-footer{
+    width: 86%;
+    margin: auto;
+  }
+  .marginal-footer img{
+    /* border: 2px solid white; */
+
+  }
+  .marginal-footer p,
+  .marginal-footer a{
+    margin: 0;
+  }
+  .footer-logo {
+    margin-left: 5px; /* Adjust spacing between text and logo */
+    height: 20px; /* Adjust the height of the logo to fit nicely */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  @media (max-width: 576px) {
+    .footer-container .row {
+      text-align: center; /* Center-align text on small screens */
+    }
+    
+    .footer-container .col-md-auto {
+      margin-bottom: 10px; /* Add spacing between elements on small screens */
+    }
+  }
+  
