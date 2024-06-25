@@ -3,7 +3,7 @@ import './LandingPage.css'
 export default function LandingPage() {
   return (
     <>
-       <div className='grid lg:grid-cols-2 gap-4 sm:grid-cols-1 sm:text-center bg-[#d9eef2]  p-4 '>
+       <div className='grid lg:grid-cols-2 gap-4 sm:grid-cols-1 sm:text-center bg-[#d9eef2]  p-4 w-full'>
             <div className='relative flex justify-center items-center lg:w-[39vw] ml-16 '>
                     <img src="./LandingPage-img/landing_img-1.svg" alt="" className='animate-rotate'/>
                     <div className='absolute flex justify-center items-center lg:w-[34vw]'>

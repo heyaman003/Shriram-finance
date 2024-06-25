@@ -18,6 +18,9 @@ import ExploringNewFrontiers from './components/ExploringNewFrontiers'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar';
 import LandingPage from './pages/Home/LandingPage';
+import Journey from './pages/Journey/Journey';
+import Empowering from './pages/Empowerment/Empowering';
+import Affordability from './pages/Empowerment/Affordability';
  
 
 function App() {
@@ -27,11 +30,13 @@ function App() {
     <>
     <BrowserRouter>
      <Navbar/>
-<div className="wrapper-main w-[90%] m-auto overflow-x-hidden">
+     <Routes>
+      <Route path='/' element={<LandingPage/>}/>
 
- <Routes>
 
-<Route path='/' element={<LandingPage/>}/>
+
+
+
 <Route path='/Chairman-message' element={<Chairman/>}/>
 <Route path='/CFO' element={<CFO/>}/>
 <Route path='/BOD' element={<BOD/>}/>
@@ -45,9 +50,11 @@ function App() {
 <Route path='/RobustProcess' element={<RobustProcess/>}/>
 <Route path='/LeadingFinancialAgility' element={<LeadingFinancialAgility/>}/>
 <Route path='/ExploringNewFrontiers' element={<ExploringNewFrontiers/>}/>
-
-    </Routes>
-</div>
+<Route path='/Chairman-message' element={<Chairman/>}/>
+<Route path='/Journey' element={<Journey/>}/>
+<Route path='/Empowering' element={<Empowering/>}/>
+<Route path='/Affordability' element={<Affordability/>}/>
+</Routes>
 </BrowserRouter>
     </>
   )
