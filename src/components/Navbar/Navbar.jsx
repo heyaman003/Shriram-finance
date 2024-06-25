@@ -12,7 +12,7 @@ const   Navbar = () => {
   };
 
   const handleMouseOut = () => {
-    imageHolderRef.current.src = '/nestle-logo.png';
+    imageHolderRef.current.src = './Nav-img/shriram-logo.svg';
   };
 
 
@@ -57,7 +57,9 @@ const   Navbar = () => {
   return (
     <>
       <div className='navbar flex'>
-        <Link onClick={() => toggleNav()} to="/" className='brand-logo'><img className='img-fluid' src="./homepage/balco-logo-new.png" alt="" /></Link>
+        <Link onClick={() => toggleNav()} to="/" className='brand-logo'>
+        <img width={"60px"} className='img-fluid' src="./Nav-img/shriram-logo.svg" alt="" />
+        </Link>
 
         {/* <p className='annual-report-text'>
           Annual<br />
@@ -70,7 +72,7 @@ const   Navbar = () => {
           </div>
           <nav id="nav-fullscreen">
             <div className='nav-menu-wrap'>
-              <div>
+              {/* <div> */}
               <ul>
                 <b>Know Shriram</b>
 
@@ -138,7 +140,7 @@ const   Navbar = () => {
                 />
 
               </div> */}
-            </div>
+            {/* </div> */}
           </nav>
           <a id="nav-toggle" onClick={toggleNav}>
             <span></span>
