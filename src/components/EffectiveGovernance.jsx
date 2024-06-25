@@ -3,7 +3,7 @@ import "./Chairman.css";
 
 const EffectiveGovernance = () => {
   return (
-    <div>
+    <div className="w-full mt-10">
       <h1 className=" text-center text-[#0098b6]  font-bold  text-4xl">
         Effective Governance in Letter and Spirit
       </h1>
@@ -36,7 +36,7 @@ const EffectiveGovernance = () => {
           <br /> Directors across functions
         </p><br />
       </div>
-      <div className="flex items-start">
+      <div className="flex  md:flex-row sm:flex-col mt-4 items-center justify-center">
 
         <div className="">
           <h2 className="font-bold text-[#0098b6] text-xl">

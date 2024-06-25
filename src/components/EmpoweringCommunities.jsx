@@ -3,13 +3,13 @@ import "./Chairman.css"
 
 const EmpoweringCommunities = () => {
   return (
-    <div>
-      <div>
+    <div className="w-full mt-10">
+      <div className="w-full mt-10">
         <h1 className=" text-center mb-8 text-[#0098b6]  font-bold  text-4xl">
           Empowering the Growth of our Communities
         </h1>
       </div>
-      <div className="gap-8 flex items-center">
+      <div className="gap-8 flex items-center sm:flex-col md:flex-row w-full ">
         <div>
           <h2 className="font-bold text-[#0098b6] text-xl">
             Industry Ready Program: Apprenticeship Program to Support Graduates
@@ -26,14 +26,12 @@ const EmpoweringCommunities = () => {
           </p>
         </div>
         <div className="w-400">
-          <img className="w-full h-auto rounded-lg mt-4" className="" src="/src/assets/EC1.webp"></img>
+          <img className="w-full h-auto rounded-lg mt-4" src="/src/assets/EC1.webp"></img>
         </div>
       </div>
 
-      <div className="gap-8 flex items-center mb-10">
-        <div className="w-[1000px]">
-          <img className="w-full h-auto rounded-lg mt-4" src="/src/assets/EC2.webp"></img>
-        </div>
+      <div className="gap-8 flex items-center sm:flex-col md:flex-row w-full ">
+        
         <div>
           <h1 className="font-bold text-[#0098b6] text-xl">
             Project Sakhi: A Sustainable Solution for a Healthier Tomorrow
@@ -48,8 +46,11 @@ const EmpoweringCommunities = () => {
             menstrual cup (made from medical-grade silicone) as a viable option.
           </p>
         </div>
+        <div className="w-400">
+          <img className="w-full h-auto rounded-lg mt-4" src="/src/assets/EC2.webp"></img>
+        </div>
       </div>
-      <div className="gap-8 flex items-center ">
+      <div className="gap-8 flex items-center sm:flex-col md:flex-row w-full ">
         <div >
           <h2 className="font-bold text-[#0098b6] text-xl">
             SHFL Supports Sparsh Hospice: Investing in Health Care and
@@ -73,10 +74,8 @@ const EmpoweringCommunities = () => {
           <img className="w-full h-auto rounded-lg mt-4" src="/src/assets/EC3.webp"></img>
         </div>
       </div>
-      <div className="gap-8 flex items-center">
-        <div className="">
-          <img className="w-full h-auto rounded-lg mt-4" src="/src/assets/EC4.webp"></img>
-        </div>
+      <div className="gap-8 flex items-center sm:flex-col md:flex-row w-full">
+       
         <div>
           <h2 className="font-bold text-[#0098b6] text-xl">
             Project at Sapna Ranch: Ensuring environmental sustainability,
@@ -92,6 +91,9 @@ const EmpoweringCommunities = () => {
             funding Zemyna Foundation’s afforestation program at their 3-acre
             forest land (Sapna Ranch) in Maharashtra.
           </p>
+        </div>
+        <div className="">
+          <img className="w-full h-auto rounded-lg mt-4" src="/src/assets/EC4.webp"></img>
         </div>
       </div>
     </div>

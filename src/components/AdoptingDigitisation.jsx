@@ -61,7 +61,7 @@ const AdoptingDigitisation = () => {
         <img src="/src/assets/IT.png"></img>
       </div>
       
-<div className="flex">
+<div className="flex sm:flex-col md:flex-row">
       <div>
         <h2 className="font-bold mb-8 text-[#0098b6] text-xl">
           Collaboration and Partnership

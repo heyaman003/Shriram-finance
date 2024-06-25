@@ -3,19 +3,19 @@ import "./Chairman.css";
 
 const Chairman = () => {
   return (
-    <div>
+    <div className="w-full">
       <h1 className="text-center text-[#0098b6]  font-bold pb-10 text-4xl">
         Message from MD & CEO
       </h1>
 
-      <div className="chairman-message  flex  gap-16">
+      <div className="chairman-message  flex  gap-16 md:flex-row sm:flex-col">
         <img
           className="chairman sm:m-auto"
           src="/src/assets/chairman.webp"
           alt="Chairman"
         />
 
-        <text className=" text-[#0098b6] pt-16 text-2xl">
+        <text className=" text-[#0098b6] md:pt-16 sm:pt-4 text-2xl">
           <img
             className="pb-6  "
             src="/src/assets/quote.svg"

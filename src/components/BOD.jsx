@@ -3,16 +3,16 @@ import "./Chairman.css";
 
 const BOD = () => {
   return (
-    <div>
+    <div className="w-full mt-10">
       {/* ------------------------------------------------------------------------------------------- */}
       <div className="mt-5 align-middle border-black ">
         <h1 className=" text-center text-[#0098b6]  font-bold  text-4xl pb-5">
           Profile of the Board of Directors
         </h1>
 
-        <div className="flex gap-2 ">
-          <div className="w-1/4 ">
-            <img className="w-3/4" src="/src/assets/BOD1.webp"></img>
+        <div className="flex gap-2 sm:flex-col md:flex-row">
+          <div className="sm:w-full md:w-1/4 ">
+            <img className="sm:w-full md:w-3/4" src="/src/assets/BOD1.webp"></img>
             <br />
             <h2 className="font-bold text-xl text-[#0098b6] ">
               Ravi Subramanian
@@ -20,7 +20,7 @@ const BOD = () => {
             <p className="  text-[#575756]">Managing Director and CEO</p>
           </div>
 
-          <div className="w-3/4">
+          <div className="sm:w-full md:w-3/4">
             <p className=" pt-5 text-xl text-[#575756]">
               Ravi donned the role of Managing Director and Chief Executive
               Officer Shriram Housing Finance in November 2018, bringing with
@@ -45,9 +45,9 @@ const BOD = () => {
       {/* ------------------------------------------------------------------------------------------- */}
 
       <div className="mt-5 align-middle border-black ">
-        <div className="flex gap-2 ">
-          <div className="w-1/4 ">
-            <img className="w-3/4" src="/src/assets/BOD2.webp"></img>
+        <div className="flex gap-2 sm:flex-col md:flex-row">
+          <div className="sm:w-full md:w-1/4 ">
+            <img className="sm:w-full md:w-3/4" src="/src/assets/BOD2.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Yalamati Srinivasa Chakravarti
@@ -55,7 +55,7 @@ const BOD = () => {
             <p className=" truncate text-[#575756]">Director</p>
           </div>
 
-          <div className="w-3/4">
+          <div className="sm:w-full md:w-3/4">
             <p className="  pt-5 text-xl text-[#575756]">
               Y.S. Chakravarti, a Non-Executive, Non-Independent Director on the
               Board of SHFL, showcasing exemplary leadership qualities garnered
@@ -75,9 +75,9 @@ const BOD = () => {
       </div>
       {/* ------------------------------------------------------------------------------------------- */}
       <div className="mt-5 align-middle border-black ">
-        <div className="flex gap-2 ">
-          <div className="w-1/4 ">
-            <img className="w-3/4" src="/src/assets/BOD3.webp"></img>
+        <div className="flex gap-2 sm:flex-col md:flex-row">
+          <div className="sm:w-full md:w-1/4 ">
+            <img className="sm:w-full md:w-3/4" src="/src/assets/BOD3.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Maya S Sinha
@@ -85,7 +85,7 @@ const BOD = () => {
             <p className=" truncate text-[#575756]">Independent Director</p>
           </div>
 
-          <div className="w-3/4">
+          <div className="sm:w-full md:w-3/4">
             <p className="  pt-5 text-xl text-[#575756]">
               Mrs. Maya S Sinha, an Independent Director with a robust
               background in economics, taxation, and entrepreneurship. With
@@ -105,9 +105,9 @@ const BOD = () => {
       </div>
       {/* ------------------------------------------------------------------------------------------- */}
       <div className="mt-5 align-middle border-black ">
-        <div className="flex gap-2 ">
-          <div className="w-1/4 ">
-            <img className="w-3/4" src="/src/assets/BOD4.webp"></img>
+        <div className="flex gap-2 sm:flex-col md:flex-row">
+          <div className="sm:w-full md:w-1/4 ">
+            <img className="sm:w-full md:w-3/4" src="/src/assets/BOD4.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6]">
               S Sridhar
@@ -115,7 +115,7 @@ const BOD = () => {
             <p className=" truncate text-[#575756]">Independent Director</p>
           </div>
 
-          <div className="w-3/4">
+          <div className="sm:w-full md:w-3/4">
             <p className="  pt-5 text-xl text-[#575756]">
               Mr. S. Sridhar is an eminent figure in banking and finance with a
               stellar educational background from the Indian Institute of
@@ -138,9 +138,9 @@ const BOD = () => {
       </div>
       {/* ------------------------------------------------------------------------------------------- */}
       <div className="mt-5 align-middle border-black ">
-        <div className="flex gap-2 ">
-          <div className="w-1/4 ">
-            <img className="w-3/4" src="/src/assets/BOD5.webp"></img>
+        <div className="flex gap-2 sm:flex-col md:flex-row">
+          <div className="sm:w-full md:w-1/4 ">
+            <img className="sm:w-full md:w-3/4" src="/src/assets/BOD5.webp"></img>
             <br />
             <h2 className="font-bold text-xl  text-[#0098b6] ">
               Lakshminarayanan Priyadarshini
@@ -148,7 +148,7 @@ const BOD = () => {
             <p className=" truncate text-[#575756]">Independent Director</p>
           </div>
 
-          <div className="w-3/4">
+          <div className="sm:w-full md:w-3/4">
             <p className="  pt-5 text-xl text-[#575756]">
               Priyadarshini, an Non-Executive, Independent Director contributing
               her wealth of expertise to the Board of SHFL. With a professional
@@ -166,9 +166,9 @@ const BOD = () => {
       {/* ------------------------------------------------------------------------------------------- */}
 
       <div className="mt-5 align-middle border-black ">
-        <div className="flex gap-2 ">
-          <div className="w-1/4 ">
-            <img className="w-3/4" src="/src/assets/BOD6.webp"></img>
+        <div className="flex gap-2 sm:flex-col md:flex-row">
+          <div className="sm:w-full md:w-1/4 ">
+            <img className="sm:w-full md:w-3/4" src="/src/assets/BOD6.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Gauri Shankar Agrawal
@@ -178,7 +178,7 @@ const BOD = () => {
             </p>
           </div>
 
-          <div className="w-3/4">
+          <div className="sm:w-full md:w-3/4">
             <p className="  pt-5 text-xl text-[#575756]">
               GS Agarwal, a Chartered Accountant with an illustrious career
               spanning over three decades, marked by expertise in Fund

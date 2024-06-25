@@ -29,19 +29,19 @@ const NavigatingChallenges = () => {
       <div>
         <h2 className="font-bold text-[#1d1d1b]">Scoring Models</h2>
       </div>
-      <div className=" flex mt-5 gap-5">
-        <div className="flex w-[65%] gap-5">
-          <div className="w-[32.3%] h-[300px]">
+      <div className="flex gap-2 mt-5  sm:flex-col md:flex-row">
+        <div className="flex sm:w-[65%] sm:gap-5 md:w-full md-gap-1">
+          <div className="sm:w-full sm:h-auto md:w-[32.3%] md:h-[300px]">
             <img className="w-full" src="/src/assets/ScoringModel1.png"></img>
           </div>
-          <div className="w-[32.3%] h-[300px]">
+          <div className=" sm:w-full sm:h-auto md:w-[32.3%] md:h-[300px]">
             <img className="w-full" src="/src/assets/ScoringModel2.png"></img>
           </div>
-          <div className="w-[32.3%] h-[300px]">
+          <div className=" sm:w-full sm:h-auto md:w-[32.3%] md:h-[300px]">
             <img className="w-full" src="/src/assets/ScoringModel3.png"></img>
           </div>
         </div>
-        <div className="w-[35%] h-[300px]">
+        <div className=" sm:w-full sm:h-auto md:w-[35%] md:h-[300px]">
           <img className="w-full" src="/src/assets/Navigating.webp"></img>
         </div>
       </div>

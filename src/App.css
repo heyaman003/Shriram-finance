@@ -1,16 +1,6 @@
 
-
-
-#root {
-  
-  margin: 0 auto;
-  padding: 1%;
-}
-
-
 .chairman {
   width: 500px;
-  height: 500px;
   
 }
 
@@ -59,3 +49,10 @@
   font-display: swap;
 }
 
+
+
+@media (max-width: 640px) {
+  .sm\:flex-col {
+      flex-direction: column !important;
+  }
+}

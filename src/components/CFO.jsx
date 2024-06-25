@@ -3,12 +3,12 @@ import "./Chairman.css";
 
 const CFO = () => {
   return (
-    <div>
-      <h1 className="text-center text-[#0098b6]  font-bold pb-10 text-4xl">
+    <div className="w-full">
+      <h1 className="text-center text-[#0098b6]  font-bold my-10 text-4xl">
         Message from WTD & CFO
       </h1>
 
-      <div className="chairman-message  flex  gap-16">
+      <div className="chairman-message   flex  gap-16 md:flex-row sm:flex-col mt-4">
         <img 
           className=" rounded-full bg-slate-100 chairman sm:m-auto"
           src="/src/assets/CFO.webp"

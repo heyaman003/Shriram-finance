@@ -3,8 +3,8 @@ import "./Chairman.css";
 
 const FinancialInclusion = () => {
   return (
-    <div>
-      <div>
+    <div className="w-full mt-10">
+      <div className="w-full">
         <h1 className=" text-center text-[#0098b6]  font-bold  text-4xl">
           Making Financial Inclusion a Reality for All
         </h1>
@@ -40,7 +40,7 @@ const FinancialInclusion = () => {
         </p>
       </div>
 
-      <div className="flex gap-20">
+      <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row">
         <div>
           <h1 className="text-[#7cc4a9] font-extrabold text-2xl">
             <span className="text-5xl">71%</span>
@@ -113,7 +113,7 @@ const FinancialInclusion = () => {
         <img src="/src/assets/SRMap.png"></img>
       </div>
 
-      <div className="flex gap-20 mb-8">
+      <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row mb-8">
         <div>
           <h1 className="text-[#7cc4a9] font-extrabold text-2xl">
             <span className="text-5xl">2,10,000+</span>
@@ -150,7 +150,7 @@ const FinancialInclusion = () => {
         </p>
       </div>
 
-      <div className="flex gap-20">
+      <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row">
         <div>
           <h1 className="text-[#7cc4a9] font-extrabold text-2xl">
             <span className="text-5xl">96%</span>

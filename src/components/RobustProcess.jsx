@@ -64,7 +64,7 @@ const RobustProcess = () => {
 
       <div className="Loyal">
         <h2 className="font-bold text-[#7cc4a9]">Checking Procedure</h2>
-        <div className="flex">
+        <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row">
           <img className="mb-8" width={800} src="/src/assets/CheckingProcedure.png"></img>
           <div className="ml-8">
             <p className="paragraph text-[#575756]">
@@ -86,7 +86,7 @@ const RobustProcess = () => {
             </p>
           </div>
         </div>
-        <div className="flex">
+        <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row">
           <div className="mr-12">
             <h2 className="font-bold text-[#7cc4a9]">
               Independent verifications at six levels

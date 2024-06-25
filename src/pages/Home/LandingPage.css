@@ -1,0 +1,79 @@
+/* LandingPage Css */
+
+.main-img{
+   top: 1%;
+   left: 14%;
+}
+
+.gradient-border {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 15px; /* Adjust this as needed */
+}
+
+.gradient-border::after {
+    content: '';
+    display: block;
+    height: 2px; /* Adjust the height of the border */
+    width: 100%;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* Major Highlights css */
+
+.major-data{
+    color: #7CC4A9;
+    font-size: 3em;
+    font-weight: bolder;
+    display: flex;
+    
+    
+}
+
+.major-categ{
+    font-size: 1.3em;
+    display: flex;
+    justify-content: start;
+}
+.image-icon{
+    width: 100px;
+}
+.head {
+    width: fit-content;
+}
+.head p{
+    transform: translate(-50%,-50%);
+}
+.h-border{
+    display: inline-block;
+    width: 14%;
+    margin-left: 25%;
+}
+
+.portfolio img{
+   width: 57%;
+   border: 1px solid black;
+   border-radius: 50%;
+}
+
+.drop{
+   display: inline-block;
+}
+
+.bg{
+    border: 1px solid red;
+}
+
+@media screen and (max-width: 600px) {
+   .major-data{
+      font-size: 1.5em;;
+   }
+   .major-categ{
+    font-size: 1em;
+   }
+  
+  }

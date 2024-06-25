@@ -2,8 +2,8 @@ import React from "react";
 
 const LeadingFinancialAgility = () => {
   return (
-    <div>
-      <div>
+    <div className="w-full mt-10">
+      <div className="w-full">
         <h1 className=" text-center text-[#0098b6]  font-bold  text-4xl">
           Leading with Financial Agility
         </h1>
@@ -42,7 +42,7 @@ const LeadingFinancialAgility = () => {
         </p>
       </div>
 
-      <div className="flex gap-20">
+      <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row">
         <div>
           <h1 className="text-[#7cc4a9] font-extrabold text-2xl">
             <span className="text-5xl">₹13,762 </span>Crore
@@ -83,7 +83,7 @@ const LeadingFinancialAgility = () => {
           <p className="text-[#575756]">Net Stage 3</p>
         </div>
       </div>
-      <div className="flex mt-8 gap-12">
+      <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row">
 
       <div className="mt-8">
         <img width={1400} src="/src/assets/Leading.webp"></img>
@@ -132,12 +132,12 @@ const LeadingFinancialAgility = () => {
       <div> 
         
       </div>
-      <div className="flex gap-8">
+      <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row">
       <div>
-        <img width={2000} src="/src/assets/Graph1.png"></img>
+        <img  src="/src/assets/Graph1.png"></img>
       </div>
 
-      <div className="flex gap-8">
+      <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row">
         <div><h2 className="font-bold text-[#0098b6] text-xl">CIBIL score</h2>
         <p className="paragraph text-[#575756]">
           The majority of our clients have CIBIL scores of over 700,

@@ -3,7 +3,7 @@ import "./Chairman.css";
 
 const PeopleCore = () => {
   return (
-    <div>
+    <div className="w-full mt-10">
       <h1 className=" text-center text-[#0098b6]  font-bold  text-4xl">
         People at the Core
       </h1>
@@ -74,7 +74,7 @@ const PeopleCore = () => {
           excellence.
         </p>
       </p>
-      <div className="flex gap-14">
+      <div className="flex gap-10 sm:flex-col md:flex-row">
         <div>
           <h1 className="text-[#7cc4a9] font-extrabold text-2xl">
             <span className="text-5xl">90% </span>
@@ -294,7 +294,7 @@ const PeopleCore = () => {
             
             
             
-            <div className="flex gap-20"> 
+            <div className="flex  sm:flex-col md:flex-row justify-between"> 
               <div>
               <h1 className="text-[#7cc4a9] font-extrabold text-2xl">
                   <span className="text-5xl">117</span>

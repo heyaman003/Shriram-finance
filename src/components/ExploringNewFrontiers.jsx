@@ -2,7 +2,7 @@ import React from "react";
 
 const ExploringNewFrontiers = () => {
   return (
-    <div>
+    <div className="mt-10 w-full">
       <div>
         <h1 className=" text-center text-[#0098b6]  font-bold  text-4xl">
           Exploring New Frontiers through our Myriad Offerings
@@ -16,7 +16,7 @@ const ExploringNewFrontiers = () => {
           growth and empowerment through homeownership.
         </p>
       </div>
-      <div className="flex gap-12 mt-8">
+      <div className="flex sm:flex-col sm:gap-20 md:gap-20 md:flex-row mt-10">
         <div>
           <img width={820} src="/src/assets/Graph3.png"></img>
         </div>

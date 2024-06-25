@@ -2,16 +2,16 @@ import React from "react";
 
 const ManagementTeam = () => {
   return (
-    <div>
+    <div className="w-full mt-10">
       {/* ------------------------------------------------------------------------------------------- */}
       <div className="mt-5 align-middle border-black ">
         <h1 className=" text-center text-[#0098b6]  font-bold  text-4xl pb-5">
           Management Team
         </h1>
 
-        <div className="flex gap-2 ">
-          <div className="w-1/4 ">
-            <img className="w-3/4" src="/src/assets/MT1.webp"></img>
+        <div className="flex gap-2 sm:flex-col md:flex-rowsm:flex-col md:flex-row ">
+          <div className=" sm:w-full md:w-1/4  ">
+            <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT1.webp"></img>
             <br />
             <h2 className="font-bold text-xl text-[#0098b6] ">G S Agarwal</h2>
             <p className=" text-[#575756]">
@@ -19,7 +19,7 @@ const ManagementTeam = () => {
             </p>
           </div>
 
-          <div className="w-3/4">
+          <div className=" sm:w-full md:w-3/4 ">
             <p className=" pt-5 text-xl text-[#575756]">
               G.S. is a dynamic professional with over 31 years of experience in
               Fund Mobilisation, Treasury Management, Planning & Strategy,
@@ -43,9 +43,9 @@ const ManagementTeam = () => {
       {/* ------------------------------------------------------------------------------------------- */}
 
       <div className="mt-5 align-middle border-black ">
-        <div className="flex gap-2 ">
-          <div className="w-1/4 ">
-            <img className="w-3/4" src="/src/assets/MT2.webp"></img>
+        <div className="flex gap-2 sm:flex-col md:flex-row">
+          <div className=" sm:w-full md:w-1/4  ">
+            <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT2.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Nagendra Singh
@@ -53,7 +53,7 @@ const ManagementTeam = () => {
             <p className=" truncate text-[#575756]">Chief Operating Officer</p>
           </div>
 
-          <div className="w-3/4">
+          <div className=" sm:w-full md:w-3/4 ">
             <p className="  pt-5 text-xl text-[#575756]">
               Nagendra comes with close to 25 years work experience, 16 of which
               have been with Citigroup & HSBC in consumer banking. In his
@@ -74,9 +74,9 @@ const ManagementTeam = () => {
       </div>
       {/* ------------------------------------------------------------------------------------------- */}
       <div className="mt-5 align-middle border-black ">
-        <div className="flex gap-2 ">
-          <div className="w-1/4 ">
-            <img className="w-3/4" src="/src/assets/MT3.webp"></img>
+        <div className="flex gap-2 sm:flex-col md:flex-row">
+          <div className=" sm:w-full md:w-1/4  ">
+            <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT3.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Shivram Jagadeswaran
@@ -84,7 +84,7 @@ const ManagementTeam = () => {
             <p className=" truncate text-[#575756]">Chief Risk Officer</p>
           </div>
 
-          <div className="w-3/4">
+          <div className=" sm:w-full md:w-3/4 ">
             <p className="  pt-5 text-xl text-[#575756]">
               In the dynamic arena of credit and risk management, Shivram boasts
               an illustrious career spanning over 28 years, marked by
@@ -105,9 +105,9 @@ const ManagementTeam = () => {
       </div>
       {/* ------------------------------------------------------------------------------------------- */}
       <div className="mt-5 align-middle border-black ">
-        <div className="flex gap-2 ">
-          <div className="w-1/4 ">
-            <img className="w-3/4" src="/src/assets/MT4.webp"></img>
+        <div className="flex gap-2 sm:flex-col md:flex-row">
+          <div className=" sm:w-full md:w-1/4  ">
+            <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT4.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Satinder Singh Sidhu
@@ -117,7 +117,7 @@ const ManagementTeam = () => {
             </p>
           </div>
 
-          <div className="w-3/4">
+          <div className=" sm:w-full md:w-3/4 ">
             <p className="  pt-5 text-xl text-[#575756]">
               Satinder brings with him over 26 years of experience in Sales &
               Collections. He has previously been associated with reputed
@@ -139,9 +139,9 @@ const ManagementTeam = () => {
 
       {/* ------------------------------------------------------------------------------------------- */}
       <div className="mt-5 align-middle border-black ">
-        <div className="flex gap-2 ">
-          <div className="w-1/4 ">
-            <img className="w-3/4" src="/src/assets/MT5.webp"></img>
+        <div className="flex gap-2 sm:flex-col md:flex-row">
+          <div className=" sm:w-full md:w-1/4  ">
+            <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT5.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Easwaran Krishnan
@@ -151,7 +151,7 @@ const ManagementTeam = () => {
             </p>
           </div>
 
-          <div className="w-3/4">
+          <div className=" sm:w-full md:w-3/4 ">
             <p className="  pt-5 text-xl text-[#575756]">
               With over 30 years of experience in human resources operations,
               Easwaran stands as a distinguished senior HR professional. He
@@ -174,9 +174,9 @@ const ManagementTeam = () => {
       {/* ------------------------------------------------------------------------------------------- */}
       {/* ------------------------------------------------------------------------------------------- */}
       <div className="mt-5 align-middle border-black ">
-        <div className="flex gap-2 ">
-          <div className="w-1/4 ">
-            <img className="w-3/4" src="/src/assets/MT6.webp"></img>
+        <div className="flex gap-2 sm:flex-col md:flex-row">
+          <div className=" sm:w-full md:w-1/4  ">
+            <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT6.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Ramchandran Nair
@@ -186,7 +186,7 @@ const ManagementTeam = () => {
             </p>
           </div>
 
-          <div className="w-3/4">
+          <div className=" sm:w-full md:w-3/4 ">
             <p className="  pt-5 text-xl text-[#575756]">
               Ramchandran has 30+ years of experience in SME Business His last
               assignment was with Shriram Finance Ltd as President & Chief
@@ -207,9 +207,9 @@ const ManagementTeam = () => {
       {/* ------------------------------------------------------------------------------------------- */}
 
       <div className="mt-5 align-middle border-black ">
-        <div className="flex gap-2 ">
-          <div className="w-1/4 ">
-            <img className="w-3/4" src="/src/assets/MT7.webp"></img>
+        <div className="flex gap-2 sm:flex-col md:flex-row">
+          <div className=" sm:w-full md:w-1/4  ">
+            <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT7.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] text-xl">
               Sanjiv Gyani
@@ -217,7 +217,7 @@ const ManagementTeam = () => {
             <p className=" truncate text-[#575756]">Chief Compliance Officer</p>
           </div>
 
-          <div className="w-3/4">
+          <div className=" sm:w-full md:w-3/4 ">
             <p className="  pt-5 text-xl text-[#575756]">
               Sanjiv has 34 years of experience in Retail Lending covering
               Sales, Business Development, Products and Policies, Risk
@@ -238,9 +238,9 @@ const ManagementTeam = () => {
         {/* ------------------------------------------------------------------------------------------- */}
 
         <div className="mt-5 align-middle border-black ">
-          <div className="flex gap-2 ">
-            <div className="w-1/4 ">
-              <img className="w-3/4" src="/src/assets/MT8.webp"></img>
+          <div className="flex gap-2 sm:flex-col md:flex-row">
+            <div className=" sm:w-full md:w-1/4  ">
+              <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT8.webp"></img>
               <br />
               <h2 className="font-bold text-xl truncate text-[#0098b6] ">
                 Sandeep Ranjan
@@ -250,7 +250,7 @@ const ManagementTeam = () => {
               </p>
             </div>
 
-            <div className="w-3/4">
+            <div className=" sm:w-full md:w-3/4 ">
               <p className="  pt-5 text-xl text-[#575756]">
                 Sandeep is a Digital Transformation leader with over 22 Years of
                 cross functional experience across BFSI and Smart Card Industry.
@@ -273,9 +273,9 @@ const ManagementTeam = () => {
         {/* ------------------------------------------------------------------------------------------- */}
 
         <div className="mt-5 align-middle border-black ">
-          <div className="flex gap-2 ">
-            <div className="w-1/4 ">
-              <img className="w-3/4" src="/src/assets/MT9.webp"></img>
+          <div className="flex gap-2 sm:flex-col md:flex-row">
+            <div className=" sm:w-full md:w-1/4  ">
+              <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT9.webp"></img>
               <br />
               <h2 className="font-bold text-xl truncate text-[#0098b6] ">
                 Amit Bhatia
@@ -285,7 +285,7 @@ const ManagementTeam = () => {
               </p>
             </div>
 
-            <div className="w-3/4">
+            <div className=" sm:w-full md:w-3/4 ">
               <p className="  pt-5 text-xl text-[#575756]">
                 Amit comes with an experience of 20 years in various capacities
                 across BFSI industry and has an extensive experience of driving
@@ -312,9 +312,9 @@ const ManagementTeam = () => {
 
 
         <div className="mt-5 align-middle border-black ">
-          <div className="flex gap-2 ">
-            <div className="w-1/4 ">
-              <img className="w-3/4" src="/src/assets/MT10.webp"></img>
+          <div className="flex gap-2 sm:flex-col md:flex-row">
+            <div className=" sm:w-full md:w-1/4  ">
+              <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT10.webp"></img>
               <br />
               <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Leena Joshi
@@ -324,7 +324,7 @@ const ManagementTeam = () => {
               </p>
             </div>
 
-            <div className="w-3/4">
+            <div className=" sm:w-full md:w-3/4 ">
               <p className="  pt-5 text-xl text-[#575756]">
               Leena is a seasoned professional with over two decades of rich experience in the financial services industry leading Operations, Customer Service, Customer Retention, Contact centre management, Complaints Management, Regulatory Compliance, Vendor management and Process re-engineering, with a track record of sustained excellence. She was last working with Grihum Housing Finance Ltd. (earlier Poonawala Housing Finance Ltd.) as Head of Operations and Customer Service. In the past, she was associated with DHFL, Citibank NA, CitiFinancial Consumer Finance and MetLife India Insurance. Leena is a graduate in Commerce and has completed her MBA from Institute of Technology and Management, Mumbai.
               </p>
