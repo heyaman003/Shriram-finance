@@ -2,15 +2,15 @@ import React from 'react';
 
 function Affordability() {
   return (
-    <div className="p-16 bg-gray-50 min-h-screen">
-      <div className="mb-12">
-        <p className="text-6xl font-bold leading-tight">
+    <div className="container-margin bg-gray-50 min-h-screen p-16">
+      <div className="title-page lg:text-6xl  font-bold">
+        <p>
           Empowering <span className="text-[#0098b6]">People</span> Enhancing
           Growth Ensuring <span className="text-[#a92e81]">Affordability</span>
         </p>
       </div>
       <div className=" mb-16">
-        <p className="text-[#07bfe9] text-2xl font-bold mt-8 max-w-[80%] leading-relaxed">
+        <p className="text-[#07bfe9] subtitle-page lg:text-2xl font-bold mt-8 max-w-[80%] leading-relaxed">
           For us at Shriram Housing Finance Limited (SHFL), empowerment is an endeavour that begins with a better understanding of what our customers need and culminates with the fulfilment of their aspirations of owning their own homes. This is what we mean by saying that empowerment for us has more than one connotation.
         </p>
       </div>

@@ -3,19 +3,19 @@ import "./Chairman.css";
 
 const EffectiveGovernance = () => {
   return (
-    <div className="w-full mt-10">
-      <h1 className=" text-center text-[#0098b6]  font-bold  text-4xl">
+    <div className="container-margin">
+      <h1 className=" text-[#0098b6]  font-bold  title-page lg:text-6xl">
         Effective Governance in Letter and Spirit
       </h1>
-      <p className="paragraph pt-6 font-medium text-2xl text-[#0098b6] ">
+      <p className="paragraph pt-6 font-medium subtitle-page lg:text-2xl text-[#0098b6] ">
         We foster a culture of responsible corporate governance to ensure our
         sustained growth. Our Board of Directors not only offers us the right
         strategic direction but also ascertains that the best interests of all
         our stakeholders are safeguarded.
       </p>
       <br />
-      <h2 className="font-bold text-[#0098b6] text-xl">Building a diverse board</h2>
-      <p className="text-[#575756]">
+      <h2 className="font-bold text-[#0098b6] text-2xl">Building a diverse board</h2>
+      <p className="text-[#575756] text-xl">
         We have made diligent efforts to realise our organisational objectives.
         One such effort includes constituting a diverse Board of Directors. This
         ensures that we benefit from a breadth of insights and guidance on
@@ -39,10 +39,10 @@ const EffectiveGovernance = () => {
       <div className="flex  md:flex-row sm:flex-col mt-4 items-center justify-center">
 
         <div className="">
-          <h2 className="font-bold text-[#0098b6] text-xl">
+          <h2 className="font-bold text-[#0098b6] text-2xl">
             Enforcing robust governance policies
           </h2>
-          <p className="text-[#575756]">
+          <p className="text-[#575756]  text-xl">
             Strong policies pertaining to corporate governance, anti-money
             laundering (AML), whistleblowers, prevention of sexual harassment
             (POSH) and our Code of Conduct help us cultivate a work culture that
@@ -51,8 +51,8 @@ const EffectiveGovernance = () => {
             conduct and promptly resolving instances of misbehaviour.
           </p>  <br />
           <div>
-        <h2 className="font-bold text-[#0098b6] text-xl">Dedicated board committees</h2>
-        <p className="text-[#575756]">
+        <h2 className="font-bold text-[#0098b6] text-2xl">Dedicated board committees</h2>
+        <p className="text-[#575756]  text-xl">
           To oversee various aspects of our operations, we have established
           several committees, such as the Nomination and Remuneration committee,
           Audit Committee, Risk Management Committee, CSR Committee, IT Strategy

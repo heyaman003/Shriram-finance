@@ -2,13 +2,13 @@ import React from "react";
 
 const LeadingFinancialAgility = () => {
   return (
-    <div className="w-full mt-10">
-      <div className="w-full">
-        <h1 className=" text-center text-[#0098b6]  font-bold  text-4xl">
+    <div className="container-margin">
+      <div className="w-full mt-8">
+        <h1 className=" text-[#0098b6]  font-bold  title-page lg:text-6xl">
           Leading with Financial Agility
         </h1>
 
-        <p className="paragraph pt-6 font-medium text-2xl text-[#0098b6] ">
+        <p className="paragraph pt-6 font-medium subtitle-page lg:text-2xl text-[#0098b6] ">
           Our sound financial future is secured through an effective liability
           franchise, supported by our strong credit scores. By consistently
           adding lenders to our portfolio and maintaining a conservative and
@@ -19,11 +19,11 @@ const LeadingFinancialAgility = () => {
           goals.
         </p>
       </div>
-      <div>
-        <h2 className="font-bold text-[#0098b6] text-xl">
+      <div className="mt-4">
+        <h2 className="font-bold text-[#0098b6] text-2xl">
           Sustaining financial strength and enriching our portfolio
         </h2>
-        <p className=" paragraph text-[#575756]">
+        <p className=" paragraph text-[#575756]  text-xl">
           Our financial performance continues to remain strong, with steady
           profit growth that is a result of sound company procedures and
           judicious capital utilisation. The average ticket size of our retail
@@ -32,7 +32,7 @@ const LeadingFinancialAgility = () => {
           demonstrated by our improved collection efficiency, even in the face
           of macroeconomic uncertainty.
         </p>
-        <p className=" paragraph text-[#575756]">
+        <p className=" paragraph text-[#575756]  text-xl">
           With a prudent investment approach, we have been able to build a
           well-balanced portfolio with consistent quality improvement. Stable
           Gross and Net stage 3 assets and the creation of a better book at a
@@ -42,7 +42,7 @@ const LeadingFinancialAgility = () => {
         </p>
       </div>
 
-      <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row">
+      <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row mt-8">
         <div>
           <h1 className="text-[#7cc4a9] font-extrabold text-2xl">
             <span className="text-5xl">₹13,762 </span>Crore
@@ -90,11 +90,11 @@ const LeadingFinancialAgility = () => {
       </div>
 
       
-        <div>
-          <h2 className="font-bold text-[#0098b6] text-xl">
+        <div className="mt-8">
+          <h2 className="font-bold text-[#0098b6] text-2xl">
             Clients who rely on us
           </h2>
-          <p className="paragraph text-[#575756]">
+          <p className="paragraph text-[#575756]  text-xl">
             Our key target audience small are business owners, but we also
             include a good variety of salaried profiles. Nearly 77% of our
             entire retail clientele consists of people are smaller than H25
@@ -103,10 +103,10 @@ const LeadingFinancialAgility = () => {
             self-employed clients highlights our dedication to meeting a wide
             range of financial demands while retaining a solid retail clientele.
           </p>
-          <h2 className="font-bold text-[#0098b6] text-xl">
+          <h2 className="font-bold text-[#0098b6] text-2xl">
           Promoting collaboration
         </h2>
-        <p className="paragraph text-[#575756]">
+        <p className="paragraph text-[#575756]  text-xl">
           In an effort to foster greater collaboration, we organised our first
           ever Investor Meet, attracting over 100 market participants from 35
           banks and financial institutions. Esteemed representatives from Kotak
@@ -116,7 +116,7 @@ const LeadingFinancialAgility = () => {
           journey, reinforce our commitment to corporate governance and discuss
           future endeavours.
         </p>
-        <p className="paragraph text-[#575756]">
+        <p className="paragraph text-[#575756]  text-xl">
           Additionally, we attained a major milestone by securing foreign
           funding through External Commercial Borrowings (ECBs) for the first
           time. Further, the Co-lending business witnessed remarkable growth,
@@ -137,9 +137,9 @@ const LeadingFinancialAgility = () => {
         <img  src="/src/assets/Graph1.png"></img>
       </div>
 
-      <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row">
-        <div><h2 className="font-bold text-[#0098b6] text-xl">CIBIL score</h2>
-        <p className="paragraph text-[#575756]">
+      <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row mb-8 mt-8">
+        <div><h2 className="font-bold text-[#0098b6] text-2xl">CIBIL score</h2>
+        <p className="paragraph text-[#575756]  text-xl">
           The majority of our clients have CIBIL scores of over 700,
           demonstrating the high calibre of our underwriting criteria and
           demonstrating our dedication to quality as an integral part of our
@@ -148,7 +148,7 @@ const LeadingFinancialAgility = () => {
           to generate higher returns.
         </p></div>
         <div>
-        <img width={800} src="/src/assets/Graph2.png"></img></div>
+        <img width={900} src="/src/assets/Graph2.png"></img></div>
       
       </div>
       </div>

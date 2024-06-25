@@ -12,7 +12,9 @@ const   Navbar = () => {
   };
 
   const handleMouseOut = () => {
+
     imageHolderRef.current.src = './Nav-img/shriram-logo.svg';
+
   };
 
 

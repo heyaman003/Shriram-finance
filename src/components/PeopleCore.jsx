@@ -3,18 +3,19 @@ import "./Chairman.css";
 
 const PeopleCore = () => {
   return (
-    <div className="w-full mt-10">
-      <h1 className=" text-center text-[#0098b6]  font-bold  text-4xl">
+    <div className="container-margin">
+          <div className="w-full mt-10">
+      <h1 className="title-page lg:text-7xl  text-[#0098b6]  font-bold ">
         People at the Core
       </h1>
-      <p className="paragraph pt-6 font-medium text-2xl text-[#0098b6] ">
+      <p className="paragraph pt-6 font-medium subtitle-page lg:text-2xl text-[#0098b6] ">
         At SFHL, we believe that empowering our team members is crucial for the
         long-term viability of our business. Led by this conviction, we invest
         in the development of our personnel, providing them with opportunities
         for growth, mentorship programmes and leadership training. Our objective
         is to cultivate a culture where learning is perpetual.
       </p>
-      <p className="paragraph text-[#575756]">
+      <p className="paragraph text-[#575756] text-xl">
         We place a premium on employee satisfaction and workplace safety. Our
         commitment to creating a safe environment, especially for women, is
         reflected in our policies like SheFirst and our late-sitting policy.
@@ -22,7 +23,7 @@ const PeopleCore = () => {
         also been recognised by the attainment of certifications, including
         ‘Great Place To Work’ and India’s Best Workplaces in BFSI.
       </p>
-      <p className="paragraph text-[#575756]">
+      <p className="paragraph text-[#575756] text-xl">
         
         At the heart of SHFL’s identity lies a vibrant and distinctive culture
         that sets us apart in the financial landscape. Our culture serves as the
@@ -30,7 +31,7 @@ const PeopleCore = () => {
         creating an environment where collaboration, innovation, and dedication
         to our customers’ aspirations thrive.
       </p>
-      <p className="paragraph text-[#575756]">
+      <p className="paragraph text-[#575756] text-xl">
         
         We cultivate an inclusive workplace culture that celebrates diversity
         and promotes a sense of belonging for all employees. We believe that
@@ -43,7 +44,7 @@ const PeopleCore = () => {
         mobility, promotions, and career development initiatives are open to all
         employees based on their performance, potential, and aspirations.
       </p>
-      <p className="paragraph text-[#575756]">
+      <p className="paragraph text-[#575756] text-xl">
         
         Our commitment to creating a safe environment, especially for women, is
         reflected in our policies like SheFirst. These measures contribute to a
@@ -51,21 +52,21 @@ const PeopleCore = () => {
         like ‘Great Place To Work’ and India’s Best Workplaces in NBFC’ and
         ‘Leadership Factories’.
       </p>
-      <h2 className="font-bold text-[#0098b6] text-xl">
+      <h2 className="font-bold text-[#0098b6] text-2xl mt-8">
         Recruiting right, building a diverse team
       </h2>
-      <p className="paragraph text-[#575756]">
+      <p className="paragraph text-[#575756] text-xl">
         The number of hires has increased by 84% since March 2023. Currently,
         our diversity ratio is eight percent. To promote diversity in leadership
         roles, diverse hires hold 27% of DVP and above positions.
-        <p className="paragraph text-[#575756]">
+        <p className="paragraph text-[#575756] text-xl">
           
           At SHFL, our commitment to effective recruitment and building a
           diverse team has been instrumental in our remarkable growth since
           March. We have nearly doubled our workforce, increasing from 1,753 to
           3,232 employees.
         </p>
-        <p className="paragraph text-[#575756]">
+        <p className="paragraph text-[#575756] text-xl">
           We believe that a diverse team is essential for driving innovation and
           success. We have revamped our Day 1 onboarding experience, ensuring
           that new employees feel welcome, equipped, and prepared to succeed
@@ -74,13 +75,13 @@ const PeopleCore = () => {
           excellence.
         </p>
       </p>
-      <div className="flex gap-10 sm:flex-col md:flex-row">
+      <div className="flex gap-10 sm:flex-col md:flex-row mt-8">
         <div>
           <h1 className="text-[#7cc4a9] font-extrabold text-2xl">
             <span className="text-5xl">90% </span>
           </h1>
           <div className="callout-line"></div>
-          <p className="text-[#575756]">Y-o-Y growth in new hires</p>
+          <p className="text-[#575756] ">Y-o-Y growth in new hires</p>
           <br />
         </div>
         <div>
@@ -92,12 +93,12 @@ const PeopleCore = () => {
           <br />
         </div>
       </div>
-      <div className="flex items-start">
+      <div className="flex items-start mt-8">
         <div className="">
-          <h2 className="font-bold text-[#0098b6] text-xl">
+          <h2 className="font-bold text-[#0098b6] text-2xl">
             Prioritising employee health and well-being
           </h2>
-          <p className="paragraph text-[#575756]">
+          <p className="paragraph text-[#575756] text-xl">
             To promote the well-being of our employees, we have partnered with
             DocOnline to launch an All-in-One health and wellness programme for
             our team members. Numerous advantages are offered by this programme,
@@ -106,21 +107,21 @@ const PeopleCore = () => {
             appointments. Nutritionist Camps are also held to encourage healthy
             living.
           </p>
-          <p className="paragraph text-[#575756]">
+          <p className="paragraph text-[#575756] text-xl">
             We also prioritise the well-being of our employees by providing them
             with flexible work arrangements like remote work and changeable
             schedules, which help them maintain a healthy work-life balance.
           </p>
           <div>
-            <h2 className="font-bold text-[#0098b6] text-xl">
+            <h2 className="font-bold text-[#0098b6] text-2xl">
               Creating a safe workplace for women
             </h2>
-            <p className=" paragraph text-[#575756]">
+            <p className=" paragraph text-[#575756] text-xl">
               Central to our efforts to champion gender diversity and cultivate
               an inclusive workplace is our SheFirst programme, designed
               specifically to empower women.
             </p>
-            <p className=" paragraph text-[#575756]">
+            <p className=" paragraph text-[#575756] text-xl">
               We are dedicated to fostering an environment that empowers women,
               embraces diversity, and promotes inclusivity at every level of our
               organization. Notably, a year ago, we counted 150 women employees,
@@ -128,11 +129,11 @@ const PeopleCore = () => {
               robust growth underlines our unwavering commitment and tangible
               progress in expanding our women workforce.
             </p>
-            <p className=" paragraph text-[#575756]">
+            <p className=" paragraph text-[#575756] text-xl">
               Our commitment is woven into our values and beliefs, which we
               embrace, both in letter and spirit.
               <br />
-              <span className="text-2xl text-[#0098b6] text-xl">
+              <span className="text-2xl text-[#0098b6]  ">
                 As a part of this endeavour, we have launched an industry-first
                 practice of imbibing a strong diversity culture through the
                 ‘SheFirst’ initiative
@@ -140,10 +141,10 @@ const PeopleCore = () => {
             </p>
 
             <div>
-              <h2 className="font-bold text-[#7cc4a9]">
+              <h2 className="font-bold text-[#7cc4a9] text-2xl mt-8">
                 Encouraging Diversity Hiring
               </h2>
-              <p className="paragraph text-[#575756]">
+              <p className="paragraph text-[#575756] text-xl">
                 We hold a strong belief in the power of diverse viewpoints and
                 skills. We champion diversity hiring as a cornerstone of our
                 workplace culture. To honor and promote gender balance, we’ve
@@ -155,10 +156,10 @@ const PeopleCore = () => {
                 organization, ensuring a more diverse and inclusive workplace.
               </p>
 
-              <h2 className="font-bold text-[#7cc4a9]">
+              <h2 className="font-bold text-[#7cc4a9] text-2xl mt-8">
                 Creating a Safe and Supportive Workplace:
               </h2>
-              <p className="paragraph text-[#575756]">
+              <p className="paragraph text-[#575756] text-xl">
                 We prioritize the safety and well-being of our employees above
                 all else. To ensure a secure working environment, we’ve
                 implemented a late sitting policy that offers women employees a
@@ -168,7 +169,7 @@ const PeopleCore = () => {
                 roles or positions, facilitates their work efficiency and
                 flexibility.
               </p>
-              <p className="paragraph text-[#575756]">
+              <p className="paragraph text-[#575756] text-xl">
             
                 In our pursuit of health and hygiene, we’ve installed sanitary
                 pad vending machines in women washrooms across all our branches.
@@ -176,8 +177,8 @@ const PeopleCore = () => {
                 and comfort of our women team members.
               </p>
 
-              <h2 className="font-bold text-[#7cc4a9]">Safe Transportation</h2>
-              <p className="paragraph text-[#575756]">
+              <h2 className="font-bold text-[#7cc4a9] text-2xl mt-8">Safe Transportation</h2>
+              <p className="paragraph text-[#575756] text-xl">
                 At SHFL we are committed to providing a safe and comfortable
                 working environment for all our women employees to avail safe
                 transportation for our women employees when they are required to
@@ -189,10 +190,10 @@ const PeopleCore = () => {
                 of mind and prioritizing their safety.
               </p>
 
-              <h2 className="font-bold text-[#7cc4a9]">
+              <h2 className="font-bold text-[#7cc4a9] text-2xl mt-8">
                 Customized health program
               </h2>
-              <p className="paragraph text-[#575756]">
+              <p className="paragraph text-[#575756] text-xl">
                 In collaboration with Apollo Health, we have partnered for
                 essential preventive health checks like full-body examinations,
                 blood tests, mammography, and pap smears. This initiative is
@@ -202,10 +203,10 @@ const PeopleCore = () => {
                 initiative reflects our commitment to ensuring they have access
                 to crucial health services for a healthier and happier life.
               </p>
-              <h2 className="font-bold text-[#7cc4a9]">
+              <h2 className="font-bold text-[#7cc4a9] text-2xl mt-8">
                 Recognizing and Celebrating Achievements:
               </h2>
-              <p className="paragraph text-[#575756]">
+              <p className="paragraph text-[#575756] text-xl">
                 Our ‘SheFirst Champions’ initiative acknowledges and celebrates
                 the achievements and contributions of women in our organization.
                 This recognition serves as a motivational factor, fostering a
@@ -227,19 +228,19 @@ const PeopleCore = () => {
                 </p>
                 <br />
 
-                <h2 className="font-bold text-[#0098b6] text-xl">
+                <h2 className="font-bold text-[#0098b6] text-2xl mt-8">
                   Cultivating a positive work culture
                 </h2>
-                <p className=" paragraph text-[#575756]">
+                <p className=" paragraph text-[#575756] text-xl">
                   What truly sets our engagement initiatives apart is the
                   personal touch woven into each activity. We prioritize
                   establishing authentic connections with each employee.
                 </p>
-                <p className=" paragraph text-[#575756]">
+                <p className=" paragraph text-[#575756] text-xl">
                   Our company culture revolves around clear communication and a
                   sense of community.
                 </p>
-                <p className=" paragraph text-[#575756]">
+                <p className=" paragraph text-[#575756] text-xl">
                   We make sure that employees know their part in the bigger
                   picture. We take pride in recognizing the efforts of our
                   employees. It’s not just about saying ‘thanks’; it’s about
@@ -247,7 +248,7 @@ const PeopleCore = () => {
                   us motivate everyone to keep doing their best in creating a
                   better work atmosphere.
                 </p>
-                <p className=" paragraph text-[#575756]">
+                <p className=" paragraph text-[#575756] text-xl">
                   We have been re-certified as a ‘Great Place To Work’ for the
                   third consecutive year, which is a testament to our continued
                   efforts to put the well-being of our people first. Moreover,
@@ -259,12 +260,12 @@ const PeopleCore = () => {
                   workforce, reinforcing the value of our approach in nurturing
                   a thriving workplace culture.
                 </p>
-                <p className=" paragraph text-[#575756]">
+                <p className=" paragraph text-[#575756] text-xl">
                   By prioritizing the well-being and satisfaction of our
                   workforce, we have created a positive feedback loop that
                   enhances overall business performance.
                 </p>
-                <span className="text-2xl text-[#0098b6] text-xl">
+                <span className=" text-[#0098b6] text-xl">
                   In essence, we are not just shaping careers; we are nurturing
                   an environment that resonates with our core values, fostering
                   a culture of equality, respect, and continuous growth.
@@ -277,10 +278,10 @@ const PeopleCore = () => {
                 <p className="text-[#575756]">Employee satisfaction rating</p>
                 <br />
 
-                <h2 className="font-bold text-[#0098b6] text-xl">
+                <h2 className="font-bold text-[#0098b6] text-2xl">
                   Celebrating the wins of our people
                 </h2>
-                <p className=" paragraph text-[#575756]">
+                <p className=" paragraph text-[#575756] text-xl">
                   We think that it is essential to acknowledge and honour the
                   contributions made by our people in achieving our objectives.
                   By organising reward programmes, we acknowledge deserving team
@@ -288,7 +289,7 @@ const PeopleCore = () => {
                   monthly and quarterly Heroes Awards.
                 </p>
 
-                <h2 className="font-bold text-[#7cc4a9] mb-8">
+                <h2 className="font-bold text-[#7cc4a9] mb-8  text-2xl">
                 Great Manager Institute Achievements
               </h2>
             
@@ -335,7 +336,7 @@ const PeopleCore = () => {
               </div>
               </div>
 
-              <img src="/src/assets/People.webp" alt="People"></img>
+              <img src="/src/assets/People.webp" alt="People" className="mt-4"></img>
 
 
               </div>
@@ -344,7 +345,8 @@ const PeopleCore = () => {
         </div>
       </div>
     </div>
-  );
+
+    </div>  );
 };
 
 export default PeopleCore;
