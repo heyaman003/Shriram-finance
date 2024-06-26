@@ -2,7 +2,7 @@ import React from "react";
 
 const ManagementTeam = () => {
   return (
-    <div className="container-margin">
+    <div className="container-margin mt-8 mb-8">
       {/* ------------------------------------------------------------------------------------------- */}
       <div className="mt-5 align-middle border-black ">
         <h1 className=" text-[#0098b6]  font-bold  title-page lg:text-6xl pb-14">
@@ -11,7 +11,7 @@ const ManagementTeam = () => {
 
         <div className="flex gap-2 sm:flex-col md:flex-rowsm:flex-col md:flex-row ">
           <div className=" sm:w-full md:w-1/4  ">
-            <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT1.webp"></img>
+            <img className=" sm:w-full md:w-3/4 " src="./Page-image/MT1.webp"></img>
             <br />
             <h2 className="font-bold text-xl text-[#0098b6] ">G S Agarwal</h2>
             <p className=" text-[#575756]">
@@ -45,7 +45,7 @@ const ManagementTeam = () => {
       <div className="mt-5 align-middle border-black ">
         <div className="flex gap-2 sm:flex-col md:flex-row">
           <div className=" sm:w-full md:w-1/4  ">
-            <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT2.webp"></img>
+            <img className=" sm:w-full md:w-3/4 " src="./Page-image/MT2.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Nagendra Singh
@@ -76,7 +76,7 @@ const ManagementTeam = () => {
       <div className="mt-5 align-middle border-black ">
         <div className="flex gap-2 sm:flex-col md:flex-row">
           <div className=" sm:w-full md:w-1/4  ">
-            <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT3.webp"></img>
+            <img className=" sm:w-full md:w-3/4 " src="./Page-image/MT3.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Shivram Jagadeswaran
@@ -107,7 +107,7 @@ const ManagementTeam = () => {
       <div className="mt-5 align-middle border-black ">
         <div className="flex gap-2 sm:flex-col md:flex-row">
           <div className=" sm:w-full md:w-1/4  ">
-            <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT4.webp"></img>
+            <img className=" sm:w-full md:w-3/4 " src="./Page-image/MT4.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Satinder Singh Sidhu
@@ -141,7 +141,7 @@ const ManagementTeam = () => {
       <div className="mt-5 align-middle border-black ">
         <div className="flex gap-2 sm:flex-col md:flex-row">
           <div className=" sm:w-full md:w-1/4  ">
-            <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT5.webp"></img>
+            <img className=" sm:w-full md:w-3/4 " src="./Page-image/MT5.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Easwaran Krishnan
@@ -176,7 +176,7 @@ const ManagementTeam = () => {
       <div className="mt-5 align-middle border-black ">
         <div className="flex gap-2 sm:flex-col md:flex-row">
           <div className=" sm:w-full md:w-1/4  ">
-            <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT6.webp"></img>
+            <img className=" sm:w-full md:w-3/4 " src="./Page-image/MT6.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Ramchandran Nair
@@ -209,7 +209,7 @@ const ManagementTeam = () => {
       <div className="mt-5 align-middle border-black ">
         <div className="flex gap-2 sm:flex-col md:flex-row">
           <div className=" sm:w-full md:w-1/4  ">
-            <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT7.webp"></img>
+            <img className=" sm:w-full md:w-3/4 " src="./Page-image/MT7.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] text-xl">
               Sanjiv Gyani
@@ -240,7 +240,7 @@ const ManagementTeam = () => {
         <div className="mt-5 align-middle border-black ">
           <div className="flex gap-2 sm:flex-col md:flex-row">
             <div className=" sm:w-full md:w-1/4  ">
-              <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT8.webp"></img>
+              <img className=" sm:w-full md:w-3/4 " src="./Page-image/MT8.webp"></img>
               <br />
               <h2 className="font-bold text-xl truncate text-[#0098b6] ">
                 Sandeep Ranjan
@@ -275,7 +275,7 @@ const ManagementTeam = () => {
         <div className="mt-5 align-middle border-black ">
           <div className="flex gap-2 sm:flex-col md:flex-row">
             <div className=" sm:w-full md:w-1/4  ">
-              <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT9.webp"></img>
+              <img className=" sm:w-full md:w-3/4 " src="./Page-image/MT9.webp"></img>
               <br />
               <h2 className="font-bold text-xl truncate text-[#0098b6] ">
                 Amit Bhatia
@@ -314,7 +314,7 @@ const ManagementTeam = () => {
         <div className="mt-5 align-middle border-black ">
           <div className="flex gap-2 sm:flex-col md:flex-row">
             <div className=" sm:w-full md:w-1/4  ">
-              <img className=" sm:w-full md:w-3/4 " src="/src/assets/MT10.webp"></img>
+              <img className=" sm:w-full md:w-3/4 " src="./Page-image/MT10.webp"></img>
               <br />
               <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Leena Joshi
@@ -331,7 +331,7 @@ const ManagementTeam = () => {
             </div>
           </div>
           <div
-            style={{ borderTop: "2px solid #a4a4a4", marginTop: "20px" }}
+            // style={{ borderTop: "2px solid #a4a4a4", marginTop: "20px" }}
           ></div>
         </div>
 

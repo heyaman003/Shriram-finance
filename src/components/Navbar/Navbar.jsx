@@ -67,7 +67,7 @@ import { motion } from "framer-motion";
           <br />
           2023-24
         </h4>
-        <img className="nestle-logo" src="./Nav-img/shriram-logo.svg" alt="" />
+        <img className="shriram-logo" src="./Nav-img/shriram-logo.svg" alt="" />
         <div id="nav-container">
           <div id="nav-overlay"></div>
           <nav id="nav-fullscreen">
@@ -81,35 +81,35 @@ import { motion } from "framer-motion";
     <b>Know Shriram</b>
 
     <li><Link onClick={() => toggleNav()} to="/" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Home</Link></li>
-    <li><Link onClick={() => toggleNav()} to="/Chairman-message" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Chairman Message</Link></li>
+    <li><Link onClick={() => toggleNav()} to="/Chairman-message" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Message from MD & CEO</Link></li>
 
-    <li><Link onClick={() => toggleNav()} to="/CFO" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>CFO</Link></li>
+    <li><Link onClick={() => toggleNav()} to="/CFO" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Message from WTD & CFO</Link></li>
 
-    <li><Link onClick={() => toggleNav()} to="/BOD" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>BOD</Link></li>
+    <li><Link onClick={() => toggleNav()} to="/BOD" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Profile of the Board  of Directors </Link></li>
 
     <li><Link onClick={() => toggleNav()} to="/ManagementTeam" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Management Team</Link></li>
 
-    <li><Link onClick={() => toggleNav()} to="/PeopleCore" >People Core</Link></li>
+    <li><Link onClick={() => toggleNav()} to="/PeopleCore" >People at the Core</Link></li>
 
-    <li><Link onClick={() => toggleNav()} to="/NavigatingChallenges" >Navigating Challenges</Link></li>
+    <li><Link onClick={() => toggleNav()} to="/NavigatingChallenges" >Navigating Challenges <br /> with Agility</Link></li>
 
   </ul>
   <ul>
     <b>Business Overview</b>
-    <li><Link onClick={() => toggleNav()} to="/EmpoweringCommunities" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Empowering Communities</Link></li>
-    <li><Link onClick={() => toggleNav()} to="/BusinessModel" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Business Model</Link></li>
+    <li><Link onClick={() => toggleNav()} to="/EmpoweringCommunities" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Empowering the Growth of <br />our Communities</Link></li>
+    <li><Link onClick={() => toggleNav()} to="/BusinessModel" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Creating Value through a Robust <br /> Business Model</Link></li>
     <li><Link onClick={() => toggleNav()} to="/AdoptingDigitisation" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Adopting Digitisation</Link></li>
-    <li><Link onClick={() => toggleNav()} to="/FinancialInclusion" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Financial Inclusion</Link></li>
-    <li><Link onClick={() => toggleNav()} to="/RobustProcess" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Robust Process</Link></li>
-    <li><Link onClick={() => toggleNav()} to="/LeadingFinancialAgility" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Leading Financial Agility</Link></li>
-    <li><Link onClick={() => toggleNav()} to="/ExploringNewFrontiers" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Exploring New Frontiers</Link></li>
-    <li><Link onClick={() => toggleNav()} to="/Journey" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Journey
+    <li><Link onClick={() => toggleNav()} to="/FinancialInclusion" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Making Financial Inclusion a <br />Reality for All</Link></li>
+    <li><Link onClick={() => toggleNav()} to="/RobustProcess" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Robust Underwriting Process</Link></li>
+    <li><Link onClick={() => toggleNav()} to="/LeadingFinancialAgility" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Leading with Financial Agility</Link></li>
+    <li><Link onClick={() => toggleNav()} to="/ExploringNewFrontiers" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Exploring New Frontiers through our <br />Myriad Offerings</Link></li>
+    <li><Link onClick={() => toggleNav()} to="/Journey" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>On a Journey of Empowering People
     </Link></li>
-    <li><Link onClick={() => toggleNav()} to="/Empowering" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Empowering
+    <li><Link onClick={() => toggleNav()} to="/Empowering" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Empowering People with Affordable <br />Housing Finance Solutions
     </Link></li>
-    <li><Link onClick={() => toggleNav()} to="/Affordability" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Affordability
+    <li><Link onClick={() => toggleNav()} to="/Affordability" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Empowering People Enhancing Growth <br />Ensuring Affordability
     </Link></li>
-    <li><Link onClick={() => toggleNav()} to="/Progress" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>View Progress
+    <li><Link onClick={() => toggleNav()} to="/Progress" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Measuring our Progress
     </Link></li>
   </ul>
             </motion.div>

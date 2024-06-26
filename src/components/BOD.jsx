@@ -12,7 +12,7 @@ const BOD = () => {
 
         <div className="flex gap-2 sm:flex-col md:flex-row">
           <div className="sm:w-full md:w-1/4 ">
-            <img className="sm:w-full md:w-3/4" src="/src/assets/BOD1.webp"></img>
+            <img className="sm:w-full md:w-3/4" src="./Page-image/BOD1.webp"></img>
             <br />
             <h2 className="font-bold text-xl text-[#0098b6] ">
               Ravi Subramanian
@@ -47,7 +47,7 @@ const BOD = () => {
       <div className="mt-5 align-middle border-black ">
         <div className="flex gap-2 sm:flex-col md:flex-row">
           <div className="sm:w-full md:w-1/4 ">
-            <img className="sm:w-full md:w-3/4" src="/src/assets/BOD2.webp"></img>
+            <img className="sm:w-full md:w-3/4" src="./Page-image/BOD2.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Yalamati Srinivasa Chakravarti
@@ -77,7 +77,7 @@ const BOD = () => {
       <div className="mt-5 align-middle border-black ">
         <div className="flex gap-2 sm:flex-col md:flex-row">
           <div className="sm:w-full md:w-1/4 ">
-            <img className="sm:w-full md:w-3/4" src="/src/assets/BOD3.webp"></img>
+            <img className="sm:w-full md:w-3/4" src="./Page-image/BOD3.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Maya S Sinha
@@ -107,7 +107,7 @@ const BOD = () => {
       <div className="mt-5 align-middle border-black ">
         <div className="flex gap-2 sm:flex-col md:flex-row">
           <div className="sm:w-full md:w-1/4 ">
-            <img className="sm:w-full md:w-3/4" src="/src/assets/BOD4.webp"></img>
+            <img className="sm:w-full md:w-3/4" src="./Page-image/BOD4.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6]">
               S Sridhar
@@ -140,7 +140,7 @@ const BOD = () => {
       <div className="mt-5 align-middle border-black ">
         <div className="flex gap-2 sm:flex-col md:flex-row">
           <div className="sm:w-full md:w-1/4 ">
-            <img className="sm:w-full md:w-3/4" src="/src/assets/BOD5.webp"></img>
+            <img className="sm:w-full md:w-3/4" src="./Page-image/BOD5.webp"></img>
             <br />
             <h2 className="font-bold text-xl  text-[#0098b6] ">
               Lakshminarayanan Priyadarshini
@@ -168,7 +168,7 @@ const BOD = () => {
       <div className="mt-5 align-middle border-black ">
         <div className="flex gap-2 sm:flex-col md:flex-row">
           <div className="sm:w-full md:w-1/4 ">
-            <img className="sm:w-full md:w-3/4" src="/src/assets/BOD6.webp"></img>
+            <img className="sm:w-full md:w-3/4" src="./Page-image/BOD6.webp"></img>
             <br />
             <h2 className="font-bold text-xl truncate text-[#0098b6] ">
               Gauri Shankar Agrawal

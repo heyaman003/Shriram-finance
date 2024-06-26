@@ -336,7 +336,7 @@ const PeopleCore = () => {
               </div>
               </div>
 
-              <img src="/src/assets/People.webp" alt="People" className="mt-4"></img>
+              <img src="./Page-image/People.webp" alt="People" className="mt-4"></img>
 
 
               </div>

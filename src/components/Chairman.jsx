@@ -3,7 +3,7 @@ import "./Chairman.css";
 
 const Chairman = () => {
   return (
-    <div className="container-margin">
+    <div className="container-margin mt-8 mb-8">
       <h1 className=" text-[#0098b6]  font-bold pb-10 title-page lg:text-6xl">
         Message from MD & CEO
       </h1>
@@ -11,14 +11,14 @@ const Chairman = () => {
       <div className="chairman-message  flex  gap-16 md:flex-row sm:flex-col">
         <img
           className="chairman sm:m-auto"
-          src="/src/assets/chairman.webp"
+          src="./Page-image/chairman.webp"
           alt="Chairman"
         />
 
         <text className=" text-[#0098b6] md:pt-16 sm:pt-4 subtitle-page lg:text-2xl">
           <img
             className="pb-6  "
-            src="/src/assets/quote.svg"
+            src="./Page-image/quote.svg"
             alt="quote mark"
           />
           Our sustainable, granular and affordable portfolio, led by a strong
@@ -121,7 +121,7 @@ const Chairman = () => {
       </section>
       <br />
       <section>
-      <img width={400} src="/src/assets/Chairman2.webp"></img>
+      <img width={400} src="./Page-image/Chairman2.webp"></img>
         <h2 className="	font-bold text-[#7cc4a9] text-2xl">Underwriting</h2>
         <p className="text-[#575756] text-xl">
           Our watertight underwriting processes and credit policy play a pivotal
@@ -142,7 +142,7 @@ const Chairman = () => {
         <text className=" text-[#0098b6]  pt-10 text-2xl">
           <img
             className="pb-6  "
-            src="/src/assets/quote.svg"
+            src="./Page-image/quote.svg"
             alt="quote mark"
           />
           At Shriram Housing Finance Limited (SHFL), we have navigated through
@@ -200,7 +200,7 @@ const Chairman = () => {
         <text className=" text-[#0098b6]  pt-10 text-2xl">
           <img
             className="pb-6  "
-            src="/src/assets/quote.svg"
+            src="./Page-image/quote.svg"
             alt="quote mark"
           />
           We are honoured to be certified as a Great Place to Work for three

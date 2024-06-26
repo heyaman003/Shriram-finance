@@ -21,11 +21,11 @@ export default function LandingPage() {
                 </div>
                 <div className='flex justify-center items-center lg:text-6xl sm:text-2xl m-auto'>
                     <div className='flex flex-col items-start landing-page-hero-container'>
-                        <h1 class='font-bebas font-600  gradient-border'>EMPOWERING <span class='text-[#0098B3]'> PEOPLE</span></h1>
+                        <h1 class='font-bebas font-bold  gradient-border'>EMPOWERING <span class='text-[#0098B3]'> PEOPLE</span></h1>
                         <br />
-                        <h1 class='font-bebas font-600  gradient-border'><span class='text-[#0098B3]'>ENHANCING </span>GROWTH</h1>
+                        <h1 class='font-bebas font-bold  gradient-border'><span class='text-[#0098B3]'>ENHANCING </span>GROWTH</h1>
                         <br />
-                        <h1 class='font-bebas font-600 '>ENSURING <span class='text-[#C82D91]'>AFFORDABILITY</span></h1>
+                        <h1 class='font-bebas font-bold '>ENSURING <span class='text-[#C82D91]'>AFFORDABILITY</span></h1>
                     </div>
                 </div>
             </div>
@@ -64,12 +64,12 @@ export default function LandingPage() {
 
             <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-8'>
                 <div className='head relative flex justify-start  mt-10 mb-10 '>
-                    <img src="./Highlights-img/Emp_img.svg" alt="" className='w-full' />
-                    <p className='absolute lg:text-4xl sm:text-2xl inset-0 top-[50%] left-[50%] font-bold  '>
+                    <img src="./Highlights-img/Emp_img.svg" alt="" className='w-full '/>
+                    <p className='absolute lg:text-3xl sm:text-2xl inset-0 top-[48%] left-[50%] font-bold  '>
                         Empowering <span className='text-[#0098B3]'>People Enhancing</span> Growth Ensuring <span className='text-[#67236e]'>Affordability</span>
                     </p>
                 </div>
-                <div className='lg:text-3xl pt-8 text-[#0098B3] font-500'>
+                <div className='lg:text-2xl pt-10 text-[#0098B3] font-600'>
                        <p>For us at Shriram Housing Finance Limited (SHFL),
                         empowerment is an endeavour that begins with
                         a better understanding of what our customers
@@ -104,7 +104,7 @@ export default function LandingPage() {
 
             <div className='disc-section mt-8'>
             <h1 className='marginal val-heading w-full text-[#006b95]'>Our Values</h1>
-            <div className='grid  lg:grid-cols-6 sm:grid-cols-1 gap-4 items-center sm:justify-start mt-2'>
+            <div className='grid  lg:grid-cols-6 sm:grid-cols-1 gap-4 items-center sm:justify-start mt-2 '>
                 <div className='flex flex-col justify-center relative'>
                     <img src="./Highlights-img/diamond_img.svg" alt="" className='image-icon ' />
                 </div>

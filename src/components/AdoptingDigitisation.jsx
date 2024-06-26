@@ -55,10 +55,10 @@ const AdoptingDigitisation = () => {
       </div>
 
       <div className="mb-16">
-        <img src="/src/assets/Digital.webp"></img>
+        <img src="./Page-image/Digital.webp"></img>
       </div>
       <div className="mb-16">
-        <img src="/src/assets/IT.png"></img>
+        <img src="./Page-image/IT.png"></img>
       </div>
       
 <div className="flex sm:flex-col md:flex-row">
@@ -66,7 +66,7 @@ const AdoptingDigitisation = () => {
         <h2 className="font-bold mb-8 text-[#0098b6] text-2xl">
           Collaboration and Partnership
         </h2>
-        <img className="w-[]" src="/src/assets/Logos.png"></img>
+        <img className="w-[]" src="./Page-image/Logos.png"></img>
       </div>
       <div className="lg:pl-8" >
         <h2 className="font-bold text-[#0098b6] text-2xl ">Data privacy and security</h2>

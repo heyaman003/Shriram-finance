@@ -3,7 +3,7 @@ import "./Chairman.css";
 
 const FinancialInclusion = () => {
   return (
-    <div className="container-margin">
+    <div className="container-margin mt-8 mb-8">
       <div className="w-full">
         <h1 className="text-[#0098b6]  font-bold title-page lg:text-6xl">
           Making Financial Inclusion a Reality for All
@@ -110,7 +110,7 @@ const FinancialInclusion = () => {
         </p>
       </div>
       <div className="mb-8 mt-8">
-        <img src="/src/assets/SRMap.png"></img>
+        <img src="./Page-image/SRMap.png"></img>
       </div>
 
       <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row mb-8">

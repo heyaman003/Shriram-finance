@@ -2,7 +2,7 @@ import React from "react";
 
 const LeadingFinancialAgility = () => {
   return (
-    <div className="container-margin">
+    <div className="container-margin mt-8 mb-8">
       <div className="w-full mt-8">
         <h1 className=" text-[#0098b6]  font-bold  title-page lg:text-6xl">
           Leading with Financial Agility
@@ -86,7 +86,7 @@ const LeadingFinancialAgility = () => {
       <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row">
 
       <div className="mt-8">
-        <img width={1400} src="/src/assets/Leading.webp"></img>
+        <img width={1400} src="./Page-image/Leading.webp"></img>
       </div>
 
       
@@ -134,7 +134,7 @@ const LeadingFinancialAgility = () => {
       </div>
       <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row">
       <div>
-        <img  src="/src/assets/Graph1.png"></img>
+        <img  src="./Page-image/Graph1.png"></img>
       </div>
 
       <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row mb-8 mt-8">
@@ -148,7 +148,7 @@ const LeadingFinancialAgility = () => {
           to generate higher returns.
         </p></div>
         <div>
-        <img width={900} src="/src/assets/Graph2.png"></img></div>
+        <img width={900} src="./Page-image/Graph2.png"></img></div>
       
       </div>
       </div>

@@ -3,7 +3,7 @@ import "./Chairman.css";
 
 const CFO = () => {
   return (
-    <div className="container-margin">
+    <div className="container-margin mt-8 mb-8">
       <h1 className=" text-[#0098b6]  font-bold mb-8 title-page lg:text-6xl">
         Message from WTD & CFO
       </h1>
@@ -11,14 +11,14 @@ const CFO = () => {
       <div className="chairman-message   flex  gap-16 md:flex-row sm:flex-col mt-4">
         <img 
           className=" rounded-full bg-slate-100 chairman sm:m-auto"
-          src="/src/assets/CFO.webp"
+          src="./Page-image/CFO.webp"
           alt="Chairman"
         />
 
         <text className=" text-[#0098b6]  pt-16 subtitle-page lg:text-2xl">
           <img
             className="pb-6  "
-            src="/src/assets/quote.svg"
+            src="./Page-image/quote.svg"
             alt="quote mark"
           />
           We, at Shriram Housing Finance Limited, have always sought to help
@@ -112,7 +112,7 @@ const CFO = () => {
           <text className=" text-[#0098b6]  pt-10 text-2xl">
             <img
               className="pb-6  "
-              src="/src/assets/quote.svg"
+              src="./Page-image/quote.svg"
               alt="quote mark"
             />
             Our financial performance is a well-refined demonstration of our

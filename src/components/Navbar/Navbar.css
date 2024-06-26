@@ -1,18 +1,22 @@
+
+
+
+body {
+    overflow-x: hidden;
+}
+
 .navbar {
     align-items: center;
     padding: 0 2%;
-    /* position: absolute; */
     top: 0;
     width: 100%;
     position: sticky;
     height: 10vh;
     background-color: white;
-    z-index: 111;
+    z-index: 113;
+    overflow-x: hidden; /* Added this line */
 }
-#nav-fullscreen {
-    overflow: hidden;
-}
-  
+
 .navbar h4 {
     color: black;
 }
@@ -20,19 +24,9 @@
 .brand-logo {
     width: 16%;
 }
+
 .brand-logo img {
     width: 100%;
-    /* z-index: 1; */
-}
-.gradient-line {
-    width: 100vw;
-    /* background: linear-gradient(to right, rgba(0, 128, 255, 0), #F47F42, rgba(0, 128, 255, 0)); */
-    height: 2px;
-    /* margin: 2% 0; */
-    background-color: rgb(4, 187, 4);
-    z-index: 11111;
-    top: 10vh;
-    position: absolute;
 }
 
 #nav-container {
@@ -40,27 +34,67 @@
     right: 5%;
 }
 
+.download-rep-btn {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.download-rep-btn div {
+    width: 55%;
+    justify-content: center;
+}
+
+.download-rep-btn a {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 6px 9px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.download-rep-btn a:hover {
+    background-color: #0056b3;
+}
+
+.download-rep-btn img {
+    width: 16%;
+    margin-left: 25px;
+    transition: transform 0.3s;
+}
+
+.download-rep-btn a:hover img {
+    transform: translateX(5px);
+}
+
 #nav-toggle {
-    /* background-color: #0e4d7f; */
     border-radius: 100%;
-    /* padding: 2%; */
     display: block;
     width: 40px;
     height: 40px;
     cursor: pointer;
     transform: rotate(0deg);
+    z-index: 116; /* Ensure the toggle button is above the overlay */
+    position: relative; /* Ensure z-index applies */
 }
 
+.shriram-logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+} 
 #nav-toggle span {
-    background-color: #000000;
+    background-color: #000;
     width: 70%;
-
     height: 4px;
     border-radius: 1px;
     display: block;
     position: absolute;
     left: 50%;
-    /* top: 50px; */
     transform: translate(-50%, -50%);
     content: '';
     transition: .5s ease-in-out;
@@ -99,16 +133,16 @@
 }
 
 #nav-overlay {
-    position: absolute;
-    top: 16px;
-    left: 16px;
-    z-index: -111;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 50%;
+    position: fixed; /* Changed to fixed */
+    top: 0; /* Adjusted to cover the entire screen */
+    left: 100%; /* Adjusted to cover the entire screen */
+    z-index: 114;
+    background-color: #ace6d1; /* Blue color */
+    border-radius: 100%;
     transition: 1s;
     transform: scale3d(0, 0, 0);
-    /* width: 25vw;
-    height: 25vw; */
+    width: 100vw; /* Adjusted to cover the entire screen */
+    height: 100vh; /* Adjusted to cover the entire screen */
 }
 
 #nav-overlay.open {
@@ -125,60 +159,63 @@
     transition-delay: 0s;
     visibility: hidden;
     opacity: 0;
+    height: 100vh;
+    z-index: 115; /* Ensure the fullscreen menu is below the toggle button and overlay */
 }
 
 #nav-fullscreen ul {
-    /* border-bottom: 2px solid black; */
     list-style: none;
-    z-index: -2;
+    z-index: 2;
 }
 
 #nav-fullscreen a {
-    color: #000000;
+    color: #0e4d7f;
     text-decoration: none;
 }
-
-#nav-fullscreen.open b{
-    color: rgb(4, 187, 4);
+#nav-fullscreen .spec-a {
+    font-weight: bold;
+    color: #09f39d;
     border-bottom: 2px solid #fff;
+    transition: all 0.1s ease-in-out;
 }
+#nav-fullscreen .spec-a:hover {
+    color: rgba(4, 187, 4, 0.679);
+
+}
+
+#nav-fullscreen.open b {
+    color: #04784e;
+    border-bottom: 2px solid #0e4d7f;
+}
+
 #nav-fullscreen.open {
     visibility: visible;
     font-size: 20px;
-    z-index: -1;
-    /* font-weight: 600; */
+    z-index: 115; /* Ensure the fullscreen is below the toggle button and overlay */
     display: flex;
     align-items: center;
+    justify-content: center; /* Center the menu items */
     opacity: 1;
     transition: ease-in-out 0.5s;
     transition-delay: 0.25s;
 }
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
+.annual-report-text{
+    left:20%;
 }
-
-#nav-overlay {
-    background-color: #f9fbfc;
-}
-
-
-
 #nav-fullscreen a:hover {
-color: rgb(34, 86, 142);
+    color: #04784e;
 }
 
 .nav-menu-wrap {
-    /* width: 90%; */
+    display: flex;
     margin: auto;
-    /* border: 2px solid black; */
-
-    align-items: center;
     justify-content: space-between;
+    gap: 3%;
 }
-
+.nav-menu-wrap li{
+    font-size: 18px;
+    
+}
 .nav-menu-dynamic-img-container {
     width: 400px;
     height: 400px;
@@ -188,37 +225,45 @@ color: rgb(34, 86, 142);
     width: 100%;
     height: 100%;
 }
+
 @media (max-width: 850px) {
     .brand-logo {
         width: 40%;
     }
-  }
+}
+
 @media (max-width: 500px) {
     .brand-logo {
         width: 60%;
     }
+    
     .brand-logo img {
         width: 100%;
     }
+    
     .navbar {
         padding: 0 5%;
+        position: fixed;
     }
-
+    
+    #nav-fullscreen.open {
+        font-size: 16px;
+    }
+    
     #nav-overlay {
         padding-top: 15%;
         width: 90vw;
         height: 90vw;
-        
+        color: #fff;
+        background-color: #0e4d7f;
     }
+    
     .nav-menu-wrap {
+        display: block;
         margin-top: 20%;
     }
     
+    #nav-fullscreen a {
+        color: #fff;
+    }
 }
-
-.nestle-logo{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-

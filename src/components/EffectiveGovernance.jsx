@@ -3,7 +3,7 @@ import "./Chairman.css";
 
 const EffectiveGovernance = () => {
   return (
-    <div className="container-margin">
+    <div className="container-margin mt-8 mb-8">
       <h1 className=" text-[#0098b6]  font-bold  title-page lg:text-6xl">
         Effective Governance in Letter and Spirit
       </h1>
@@ -70,7 +70,7 @@ const EffectiveGovernance = () => {
         </div>
         <img
           className="ml-4 w-96"
-          src="/src/assets/Effective.webp"
+          src="./Page-image/Effective.webp"
           alt="Governance"
         />
 

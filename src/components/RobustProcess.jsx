@@ -3,9 +3,9 @@ import "./Chairman.css";
 
 const RobustProcess = () => {
   return (
-    <div className="container-margin">
+    <div className="container-margin mt-8 mb-8">
       <div>
-        <h1 className=" lg:text-center text-[#0098b6]  font-bold title-page lg:text-6xl ">
+        <h1 className="  text-[#0098b6]  font-bold title-page lg:text-6xl">
           Robust Underwriting Process
         </h1>
 
@@ -31,7 +31,7 @@ const RobustProcess = () => {
           efforts led to improvement in delinquency metrics across buckets
         </h2>
 
-        <img src="/src/assets/Metrics.png"></img>
+        <img src="./Page-image/Metrics.png"></img>
       </div>
 
       <div  className="mt-8">
@@ -65,7 +65,7 @@ const RobustProcess = () => {
       <div className="Loyal mt-8">
         <h2 className="font-bold text-[#7cc4a9] text-2xl">Checking Procedure</h2>
         <div className="flex sm:flex-col sm:gap-2 md:gap-20 md:flex-row">
-          <img className="mb-8" width={800} src="/src/assets/CheckingProcedure.png"></img>
+          <img className="mb-8" width={800} src="./Page-image/CheckingProcedure.png"></img>
           <div className="lg:ml-8 sm:ml-0">
             <p className="paragraph text-[#575756] text-xl">
               We maintain the highest standards of due diligence and guarantee
@@ -91,7 +91,7 @@ const RobustProcess = () => {
             <h2 className="font-bold text-[#7cc4a9] text-2xl mb-8">
               Independent verifications at six levels
             </h2>
-            <img width={400} src="/src/assets/Independent.png"></img>
+            <img width={400} src="./Page-image/Independent.png"></img>
             
           </div>
           <div>
@@ -101,7 +101,7 @@ const RobustProcess = () => {
             <h2 className="font-bold mb-8 text-[#040404] mt-8 text-2xl">
               Exhaustive Analytics in collaboration with Bureaus
             </h2>
-            <img width={1000} src="/src/assets/ComprehensiveQuant.png"></img>
+            <img width={1000} src="./Page-image/ComprehensiveQuant.png"></img>
           </div>
         </div>
       </div>

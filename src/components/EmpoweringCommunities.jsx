@@ -3,7 +3,7 @@ import "./Chairman.css"
 
 const EmpoweringCommunities = () => {
   return (
-    <div className="container-margin">
+    <div className="container-margin mt-8 mb-8">
       <div className="w-full mt-10">
         <h1 className="mb-8 text-[#0098b6]  font-bold  title-page lg:text-6xl">
           Empowering the Growth of our Communities
@@ -26,7 +26,7 @@ const EmpoweringCommunities = () => {
           </p>
         </div>
         <div className="w-400">
-          <img className="w-full h-auto rounded-lg mt-4" src="/src/assets/EC1.webp"></img>
+          <img className="w-full h-auto rounded-lg mt-4" src="./Page-image/EC1.webp"></img>
         </div>
       </div>
 
@@ -47,7 +47,7 @@ const EmpoweringCommunities = () => {
           </p>
         </div>
         <div className="w-400">
-          <img className="w-full h-auto rounded-lg mt-4" src="/src/assets/EC2.webp"></img>
+          <img className="w-full h-auto rounded-lg mt-4" src="./Page-image/EC2.webp"></img>
         </div>
       </div>
       <div className="gap-8 flex items-center sm:flex-col md:flex-row w-full ">
@@ -71,7 +71,7 @@ const EmpoweringCommunities = () => {
           </p>
         </div>
         <div className="w-[100%]">
-          <img className="w-full h-auto rounded-lg mt-4" src="/src/assets/EC3.webp"></img>
+          <img className="w-full h-auto rounded-lg mt-4" src="./Page-image/EC3.webp"></img>
         </div>
       </div>
       <div className="gap-8 flex items-center sm:flex-col md:flex-row w-full">
@@ -93,7 +93,7 @@ const EmpoweringCommunities = () => {
           </p>
         </div>
         <div className="">
-          <img className="w-full h-auto rounded-lg mt-4" src="/src/assets/EC4.webp"></img>
+          <img className="w-full h-auto rounded-lg mt-4" src="./Page-image/EC4.webp"></img>
         </div>
       </div>
     </div>

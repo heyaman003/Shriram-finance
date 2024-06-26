@@ -1,8 +1,8 @@
 /* LandingPage Css */
 
 .main-img{
-   top: 4%;
-   left: 22%;
+   top: 5%;
+   left: 15%;
 }
  
 .gradient-border {
@@ -93,9 +93,7 @@ font-size: 36px;
    .landing-page-hero-container h1{
     font-size: 22px;
     }
-    .main-img{
-        left: 13%;
-    }  
+     
   
   }
   .background-patch{

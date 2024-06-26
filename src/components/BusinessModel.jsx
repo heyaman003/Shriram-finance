@@ -9,7 +9,7 @@ const BusinessModel = () => {
       </h1></div>
 
       <div>
-        <img src='/src/assets/BusinessModel.png'></img>
+        <img src='./Page-image/BusinessModel.png'></img>
       </div>
 
     </div>

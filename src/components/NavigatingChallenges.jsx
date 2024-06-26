@@ -2,7 +2,7 @@ import React from "react";
 
 const NavigatingChallenges = () => {
   return (
-    <div className="container-margin">
+    <div className="container-margin mt-8 mb-8">
       <div>
         <h1 className=" text-[#0098b6]  font-bold  title-page lg:text-6xl">
           Navigating Challenges with Agility
@@ -32,17 +32,17 @@ const NavigatingChallenges = () => {
       <div className="flex gap-2 mt-5  sm:flex-col md:flex-row">
         <div className="flex sm:w-[65%] sm:gap-5 md:w-full md-gap-1">
           <div className="sm:w-full sm:h-auto md:w-[32.3%] md:h-[300px]">
-            <img className="w-full" src="/src/assets/ScoringModel1.png"></img>
+            <img className="w-full" src="./Page-image/ScoringModel1.png"></img>
           </div>
           <div className=" sm:w-full sm:h-auto md:w-[32.3%] md:h-[300px]">
-            <img className="w-full" src="/src/assets/ScoringModel2.png"></img>
+            <img className="w-full" src="./Page-image/ScoringModel2.png"></img>
           </div>
           <div className=" sm:w-full sm:h-auto md:w-[32.3%] md:h-[300px]">
-            <img className="w-full" src="/src/assets/ScoringModel3.png"></img>
+            <img className="w-full" src="./Page-image/ScoringModel3.png"></img>
           </div>
         </div>
         <div className=" sm:w-full sm:h-auto md:w-[35%] md:h-[300px]">
-          <img className="w-full" src="/src/assets/Navigating.webp"></img>
+          <img className="w-full" src="./Page-image/Navigating.webp"></img>
         </div>
       </div>
       <div  className="mt-48">

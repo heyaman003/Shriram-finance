@@ -2,7 +2,7 @@ import React from "react";
 
 const ExploringNewFrontiers = () => {
   return (
-    <div className="container-margin">
+    <div className="container-margin mt-8 mb-8">
       <div className="mt-4 mb-4">
         <h1 className="text-[#0098b6]  font-bold  title-page lg:text-6xl">
           Exploring New Frontiers through our Myriad Offerings
@@ -18,10 +18,10 @@ const ExploringNewFrontiers = () => {
       </div>
       <div className="flex sm:flex-col sm:gap-20 md:gap-20 md:flex-row mt-10 mb-10">
         <div>
-          <img width={820} src="/src/assets/Graph3.png"></img>
+          <img width={820} src="./Page-image/Graph3.png"></img>
         </div>
         <div>
-          <img width={600} src="/src/assets/HomeLoan.png"></img>
+          <img width={600} src="./Page-image/HomeLoan.png"></img>
         </div>
       </div>
     </div>
