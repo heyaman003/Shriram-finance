@@ -26,7 +26,7 @@ const callouts = [
 const MHighlights = () => {
   return (
     <div className="marquee text-white py-4">
-      <h1 className="high-head">Major Highlights of FY24</h1>
+      <h1 className="high-head text-center">Major Highlights of FY24</h1>
       <Marquee gradient={false}>
         {callouts.map((callout, index) => (
           <div key={index} className="mx-8 marquee-content-box">

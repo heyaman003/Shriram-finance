@@ -3,10 +3,11 @@ import './LandingPage.css'
 import BodSlider from '../../components/BodSlider/BodSlider'
 import MHighlights from '../../components/Highlights/Highlights'
 import Quote from '../../components/Quote/Quote'
+import Financial from '../../components/Financial/Financial'
 export default function LandingPage() {
     return (
         <>
-            <div className='grid lg:grid-cols-2 gap-4 sm:grid-cols-1 sm:text-center bg-[#d9eef2]  p-4 w-full m-auto'>
+            <div className='grid lg:grid-cols-2 gap-4 sm:grid-cols-1 sm:text-center bg-[#d9eef2]  p-4 w-full '>
                 <div className='relative flex justify-center items-center lg:w-[39vw] m-auto '>
                     <img src="./LandingPage-img/landing_img-1.svg" alt="" className='animate-rotate' />
                     <div className='absolute flex justify-center items-center lg:w-[34vw]'>
@@ -15,7 +16,7 @@ export default function LandingPage() {
                             <img src="./LandingPage-img/landing_img-3.svg" alt="" className='animate-rotate' />
                         </div>
                     </div>
-                    <div className='absolute z-10 main-img lg:w-[30vw] sm:w-[20vw]'>
+                    <div className='absolute z-10 main-img lg:w-[27vw] ]'>
                         <img src="./LandingPage-img/landing_img-4.svg" alt="" />
                     </div>
                 </div>
@@ -62,14 +63,14 @@ export default function LandingPage() {
             </div> */}
             <MHighlights />
 
-            <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-8'>
+            <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-8 container-margin'>
                 <div className='head relative flex justify-start  mt-10 mb-10 '>
                     <img src="./Highlights-img/Emp_img.svg" alt="" className='w-full '/>
-                    <p className='absolute lg:text-3xl sm:text-2xl inset-0 top-[48%] left-[50%] font-bold  '>
+                    <p className='absolute lg:text-3xl sm:text-2xl inset-0 top-[45%] left-[50%] font-bold  '>
                         Empowering <span className='text-[#0098B3]'>People Enhancing</span> Growth Ensuring <span className='text-[#67236e]'>Affordability</span>
                     </p>
                 </div>
-                <div className='lg:text-2xl pt-10 text-[#0098B3] font-600'>
+                <div className='lg:text-2xl pt-16 text-[#0098B3] font-600'>
                        <p>For us at Shriram Housing Finance Limited (SHFL),
                         empowerment is an endeavour that begins with
                         a better understanding of what our customers
@@ -81,56 +82,60 @@ export default function LandingPage() {
             </div>
 
 
-            <div className='grid lg:grid-cols-2 disc-section  sm:grid-cols-1  gap-4  w-full ' >
-
-                <div className='flex flex-col'>
-                    <p className='val-heading text-[#006b95]'>Vision</p>
-                    <div className='flex items-center '>
-                        <img src="./Highlights-img/housing_img.svg" alt="" className='image-icon' />
-                        <p className='text-3xl '>Housing
-                            for All</p>
-                    </div>
-                </div>
-                <div className='flex flex-col'>
-                    <p className='val-heading text-[#006b95]'>Mission</p>
-                            <div className='flex  items-center '>
-                                <img src="./Highlights-img/fund_img.svg" alt="" className='image-icon' />
-                                <p className='text-3xl '>Finding Ways to
-                                    Funding Homes</p>
+            <div className='disc-section' >
+                   <div className='grid lg:grid-cols-2 sm:grid-cols-1  container-margin '>
+                        <div className='flex flex-col'>
+                            <p className='val-heading text-[#006b95]'>Vision</p>
+                            <div className='flex items-center gap-2'>
+                                <img src="./Highlights-img/housing_img.svg" alt="" className='image-icon' />
+                                <p className='text-4xl text-[#67236e]'>Housing
+                                    for All</p>
                             </div>
-                </div>
+                        </div>
+                        <div className='flex flex-col'>
+                            <p className='val-heading text-[#006b95]'>Mission</p>
+                                    <div className='flex  items-center '>
+                                        <img src="./Highlights-img/fund_img.svg" alt="" className='image-icon' />
+                                        <p className='text-4xl text-[#67236e]'>Finding Ways to
+                                            Funding Homes</p>
+                                    </div>
+                        </div>
+                   </div>
             </div>
               
 
             <div className='disc-section mt-8'>
-            <h1 className='marginal val-heading w-full text-[#006b95]'>Our Values</h1>
-            <div className='grid  lg:grid-cols-6 sm:grid-cols-1 gap-4 items-center sm:justify-start mt-2 '>
+                 <div className='container-margin'>
+                    <h1 className='marginal val-heading w-full text-[#006b95]'>Our Values</h1>
+                    <div className='grid  lg:grid-cols-6 sm:grid-cols-1 gap-4 items-center sm:justify-start mt-2 '>
                 <div className='flex flex-col justify-center relative'>
                     <img src="./Highlights-img/diamond_img.svg" alt="" className='image-icon ' />
                 </div>
                 <div className='relative  flex justify-center '>
                     <img src="./Highlights-img/water_bubble.svg" alt="" className='water-bubble' />
-                    <span className='absolute inset-0 top-[25%] left-[52%] text-2xl'>Integrity</span>
+                    <span className='absolute inset-0 top-[25%] left-[52%] text-3xl'>Integrity</span>
                 </div>
                 <div className='relative flex justify-center '>
                     <img src="./Highlights-img/water_bubble.svg" alt="" className='water-bubble' />
-                    <span className='absolute inset-0 top-[25%] left-[52%] text-2xl'>Trust</span>
+                    <span className='absolute inset-0 top-[25%] left-[52%] text-3xl'>Trust</span>
                 </div>
                 <div className='relative flex justify-center '>
                     <img src="./Highlights-img/water_bubble.svg" alt="" className='water-bubble' />
-                    <span className='absolute inset-0 top-[25%] left-[52%] text-2xl'>Passion</span>
+                    <span className='absolute inset-0 top-[25%] left-[52%] text-3xl'>Passion</span>
                 </div>
                 <div className='relative flex justify-center '>
                     <img src="./Highlights-img/water_bubble.svg" alt="" className='water-bubble' />
-                    <span className='absolute inset-0 top-[25%] left-[52%] text-2xl'>Agility</span>
+                    <span className='absolute inset-0 top-[25%] left-[52%] text-3xl'>Agility</span>
                 </div>
                 <div className='relative flex justify-center '>
                     <img src="./Highlights-img/water_bubble.svg" alt="" className='water-bubble' />
-                    <span className='absolute inset-0 top-[25%] left-[52%] text-2xl'>Empathy</span>
+                    <span className='absolute inset-0 top-[25%] left-[52%] text-3xl'>Empathy</span>
                 </div>
-            </div>
+                    </div>
+                 </div>
             </div>
             <BodSlider />
+            {/* <Financial/> */}
             <Quote />
 
 

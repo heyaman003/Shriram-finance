@@ -61,11 +61,7 @@ import { motion } from "framer-motion";
     <>
       <div className="navbar flex">
         <h4 className="annual-report-text">
-          Annual
-          <br />
-          Report
-          <br />
-          2023-24
+           <span className="text-[#006b95] font-bold">Shriram Housing Finance</span> <br /> Annual Report <span className="font-500">2023-2024</span>
         </h4>
         <img className="shriram-logo" src="./Nav-img/shriram-logo.svg" alt="" />
         <div id="nav-container">

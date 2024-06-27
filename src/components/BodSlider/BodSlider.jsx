@@ -50,7 +50,7 @@ const BodSlider = () => {
 
   return (
     <div className="container bod-sect mx-auto">
-            <h1>Profile of the Board of Directors</h1>
+            <h1 className='text-center'>Profile of the Board of Directors</h1>
 
       <Slider {...settings}>
         {cards.map((card) => (

@@ -25,8 +25,8 @@ const Quote = () => {
   };
 
   return (
-    <div className='quote-section '>
-      <h1>Message from WTD & CFO</h1>
+    <div className='quote-section pt-2'>
+      <h1 className='text-center'>Message from WTD & CFO</h1>
     <div className="carousel-container">
     <Slider {...settings}>
       <div>

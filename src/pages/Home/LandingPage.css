@@ -1,8 +1,8 @@
 /* LandingPage Css */
 
 .main-img{
-   top: 5%;
-   left: 15%;
+   top: 8%;
+   left: 20%;
 }
  
 .gradient-border {
@@ -68,7 +68,7 @@
     border: 1px solid red;
 }
 .disc-section{
-    background-color: #e7f1f4;
+    background-color: #f4f7f8;
     padding: 3%;
 }
 .val-heading{
