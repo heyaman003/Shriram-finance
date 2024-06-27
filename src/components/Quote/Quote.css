@@ -1,6 +1,6 @@
 .carousel-container {
     margin: 0 auto;
-    max-width: 800px; /* Adjust max-width as per your design */
+    max-width: 850px; /* Adjust max-width as per your design */
   }
   
   .slide {
@@ -24,4 +24,5 @@
     margin: 5% 7%;
     font-weight: 700;
     color:#0098b6;
-}  
+} 
+

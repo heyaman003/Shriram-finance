@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css"; 
+import ReadMoreButton from '../ReadMore/ReadMoreButton';
 import "./BodSlider.css"
 const BodSlider = () => {
   const cards = [
@@ -65,6 +66,9 @@ const BodSlider = () => {
           </div>
         ))}
       </Slider>
+      <div className='pb-4 mt-8'>
+           <a href="BOD"><ReadMoreButton/></a>
+      </div>
     </div>
   );
 };
