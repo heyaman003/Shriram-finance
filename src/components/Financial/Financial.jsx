@@ -105,7 +105,7 @@ const Financial = () => {
 
   return (
     <div className='container-margin'>
-      <h2 className='text-center text-4xl font-bold text-[#0098b6] py-8'>Financial Performance</h2>
+      <h2 className='text-center text-5xl font-bold text-[#0098b6] py-8'>Financial Performance</h2>
       <Carousel
         additionalTransfrom={0}
         arrows
@@ -147,7 +147,9 @@ const Financial = () => {
       >
         {renderCharts()}
       </Carousel>
-      <a href="Progress"><ReadMoreButton/></a>
+        <div className='mb-4'>
+            <a href="Progress"><ReadMoreButton/></a>
+        </div>
     </div>
   );
 };

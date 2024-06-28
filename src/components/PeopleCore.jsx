@@ -3,7 +3,7 @@ import "./Chairman.css";
 
 const PeopleCore = () => {
   return (
-    <div className="container-margin">
+    <div className="container-margin mt-4 mb-4">
           <div className="w-full mt-10">
       <h1 className="title-page lg:text-7xl  text-[#0098b6]  font-bold ">
         People at the Core
@@ -15,6 +15,9 @@ const PeopleCore = () => {
         for growth, mentorship programmes and leadership training. Our objective
         is to cultivate a culture where learning is perpetual.
       </p>
+      <div>
+             <img src="./Page-image/People.webp" alt="People" className="mt-4"></img>
+      </div>
       <p className="paragraph text-[#575756] text-xl">
         We place a premium on employee satisfaction and workplace safety. Our
         commitment to creating a safe environment, especially for women, is
@@ -336,7 +339,7 @@ const PeopleCore = () => {
               </div>
               </div>
 
-              <img src="./Page-image/People.webp" alt="People" className="mt-4"></img>
+          
 
 
               </div>

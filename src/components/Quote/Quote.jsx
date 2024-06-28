@@ -28,25 +28,35 @@ const Quote = () => {
   return (
        <div>
             <div className='quote-section pt-2'>
-              <h1 className='text-center'>Message from WTD & CFO</h1>
+              
+              
               <div className="carousel-container">
               <Slider {...settings}>
                 <div>
+                  <h1 className='text-center'>Message from MD & CEO</h1>
                   <div className="slide">
                     <img src="./LandingPage-img/Group 8.webp" className='object-cover h-full w-[90%]' alt="Quote 1" />
                   </div>
+                  <div className='flex justify-center mt-8 pb-4'>
+                    <a href="Chairman-message"> <ReadMoreButton/></a>
+                  </div>
                 </div>
                 <div>
+                  <h1 className='text-center'>Message from WTD & CFO</h1>
                   <div className="slide">
                     <img src="./LandingPage-img/Group 9.webp" className='object-cover h-full w-full' alt="Quote 2" />
                   </div>
+                  <div className='flex justify-center mt-8 pb-4'>
+                    <a href="CFO"> <ReadMoreButton/></a>
+                  </div>
                 </div>
+                
               </Slider>
+             
             </div>
+           
             </div>
-            <div className='mb-4'>
-               <a href="Chairman-message"> <ReadMoreButton/></a>
-            </div>
+          
        </div>
   );
 };

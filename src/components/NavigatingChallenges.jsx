@@ -27,28 +27,24 @@ const NavigatingChallenges = () => {
       </div>
 
       <div>
-        <h2 className="font-bold text-[#1d1d1b]  text-2xl">Scoring Models</h2>
+        <h2 className="font-bold  text-3xl text-[#0098b6]">Scoring Models</h2>
       </div>
-      <div className="flex gap-2 mt-5  sm:flex-col md:flex-row">
-        <div className="flex sm:w-[65%] sm:gap-5 md:w-full md-gap-1">
-          <div className="sm:w-full sm:h-auto md:w-[32.3%] md:h-[300px]">
-            <img className="w-full" src="./Page-image/ScoringModel1.png"></img>
-          </div>
-          <div className=" sm:w-full sm:h-auto md:w-[32.3%] md:h-[300px]">
-            <img className="w-full" src="./Page-image/ScoringModel2.png"></img>
-          </div>
-          <div className=" sm:w-full sm:h-auto md:w-[32.3%] md:h-[300px]">
-            <img className="w-full" src="./Page-image/ScoringModel3.png"></img>
-          </div>
-        </div>
-        <div className=" sm:w-full sm:h-auto md:w-[35%] md:h-[300px]">
-          <img className="w-full" src="./Page-image/Navigating.webp"></img>
-        </div>
+    
+      <div  className="grid lg:grid-cols-3 sm:grid-cols-1 gap-2 mt-4">
+         <div>
+              <img className="w-[80%]" src="./Page-image/ScoringModel1.png"></img>
+         </div>
+         <div>
+              <img className="w-[80%]" src="./Page-image/ScoringModel2.png"></img>
+         </div>
+         <div>
+         <img className="w-[80%]" src="./Page-image/ScoringModel3.png"></img>
+         </div>
       </div>
-      <div  className="mt-48">
-        <h2 className="font-bold mb-2 text-[#0098b6] text-2xl">Scoring Models</h2>
+      <div  className="mt-4">
+       
         <h2 className="font-medium text-[#7cc4a9]  text-2xl">Collection Risks</h2>
-        <p className="paragraph lg:w-[70%] text-[#575756]  text-xl">
+        <p className="paragraph  text-[#575756]  text-xl">
           Collections employ a range of measures and strategies to mitigate the
           risk of loan default and delinquency. These strategies encompass
           tele-calling, field collections, digital collections, legal actions,
@@ -79,7 +75,7 @@ const NavigatingChallenges = () => {
           debtors convenience and accessibility, encouraging timely repayments
           and reducing administrative burdens on collectors.
         </p>
-        <h2 className="font-medium text-[#7cc4a9]  text-2xl">
+        <h2 className="font-medium text-[#7cc4a9]  text-2xl pt-4">
           Early Identification of Delinquencies
         </h2>
         <p className="paragraph  text-[#575756]  text-xl">
@@ -91,7 +87,7 @@ const NavigatingChallenges = () => {
           offering assistance to address borrower queries helps minimize the
           risk of defaults.
         </p>
-        <h2 className="font-medium text-[#7cc4a9]  text-2xl">
+        <h2 className="font-medium text-[#7cc4a9]  text-2xl pt-4">
           Educating Customers about the Significance of Timely Repayment
         </h2>
         <p className="paragraph  text-[#575756]  text-xl">
@@ -105,7 +101,7 @@ const NavigatingChallenges = () => {
           empowers customers to make informed decisions and cultivate timely &
           responsible repayment habits.
         </p>
-        <h2 className="font-medium text-[#7cc4a9]  text-2xl">Assessing Credit Risk</h2>
+        <h2 className="font-medium text-[#7cc4a9]  text-2xl pt-4">Assessing Credit Risk</h2>
         <p className="paragraph  text-[#575756]  text-xl">
           We have a knowledgeable and talented credit team to appraise loan
           applications. In addition we also use scorecard models to continuously
@@ -113,7 +109,7 @@ const NavigatingChallenges = () => {
           show lower rates of delinquency and bounce, which strengthens the
           credit score-based loan approvals and monitoring.
         </p>
-        <h2 className="font-medium text-[#7cc4a9]  text-2xl">Collection Risks</h2>
+        <h2 className="font-medium text-[#7cc4a9]  text-2xl pt-4">Collection Risks</h2>
         <p className="paragraph  text-[#575756]  text-xl">
           Collections employ a range of measures and strategies to mitigate the
           risk of loan default and delinquency. These strategies encompass
@@ -123,7 +119,7 @@ const NavigatingChallenges = () => {
           management system ‘Credit Nirvana’ underscores our commitment to
           enhancing collection efforts.
         </p>
-        <h2 className="font-medium text-[#7cc4a9]  text-2xl">
+        <h2 className="font-medium text-[#7cc4a9]  text-2xl pt-4">
           Enhancing Customer Payment Experience through Digital Payments
         </h2>
         <p className="paragraph  text-[#575756]  text-xl">
@@ -133,7 +129,7 @@ const NavigatingChallenges = () => {
           efficiency, improves cash flow, enhanced security, better customer
           experience, and valuable data analytics.
         </p>
-        <h2 className="font-medium text-[#7cc4a9]  text-2xl">
+        <h2 className="font-medium text-[#7cc4a9]  text-2xl pt-4">
           Implementing Legal Action and Repossession
         </h2>
         <p className="paragraph  text-[#575756]  text-xl">
@@ -142,10 +138,10 @@ const NavigatingChallenges = () => {
           through legal route is the step taken to reduce the risk of default
           and losses.
         </p>
-        <h2 className="font-medium text-[#7cc4a9]  text-2xl">
+        <h2 className="font-medium text-[#7cc4a9]  text-2xl pt-4">
           Structured Approach for Cash Flow Calculations
         </h2>
-        <p className="paragraph  text-[#575756]  text-xl">
+        <p className="paragraph  text-[#575756]  text-xl ">
           To ensure accurate risk assessment for customers who are unable to
           report their turnover through bank channels or by disclosing their
           true revenue on tax forms, we hire credit experts to estimate future
@@ -153,7 +149,7 @@ const NavigatingChallenges = () => {
           authorisation thresholds, ensures a precise risk evaluation of each
           customer’s financial standing.
         </p>
-        <h2 className="font-medium text-[#7cc4a9]  text-2xl">
+        <h2 className="font-medium text-[#7cc4a9]  text-2xl pt-4">
           Promoting Digital EMI Collection
         </h2>
         <p className="paragraph text-[#575756]  text-xl">

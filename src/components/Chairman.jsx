@@ -107,7 +107,7 @@ const Chairman = () => {
         </p>
       </section>
       <br />
-      <section>
+      {/* <section>
         <h2 className="font-bold text-[#7cc4a9] text-2xl">Sustained growth</h2>
         <p className="text-[#575756] text-xl">
           Our strategy is to grow SHFL as a national player with dominance
@@ -118,10 +118,26 @@ const Chairman = () => {
           with leading banks, and channelling innovative funding sources toward
           financing affordable housing in the country.
         </p>
-      </section>
+        <img width={400} src="./Page-image/Chairman2.webp"></img>
+      </section> */}
+      <div className="grid lg:grid-cols-2 sm:grid-cols-1 mt-4 bg-slate-50 p-4">
+           <div>
+               <p className="font-bold text-[#7cc4a9] text-2xl">Sustained growth</p>
+                <p className="text-[#575756] text-xl pt-8"> Our strategy is to grow SHFL as a national player with dominance
+                across our key markets, such as the southern states, Gujarat, and
+                Maharashtra while expanding our national footprint and doubling our
+                branch presence over FY25 and FY26. We are investing in infrastructure
+                and technology to drive growth, leveraging co-lending partnerships
+                with leading banks, and channelling innovative funding sources toward
+                financing affordable housing in the country.</p>
+           </div>
+           <div className="flex justify-center">
+                  <img width={400} src="./Page-image/Chairman2.webp"></img>
+           </div>
+      </div>
       <br />
       <section>
-      <img width={400} src="./Page-image/Chairman2.webp"></img>
+     
         <h2 className="	font-bold text-[#7cc4a9] text-2xl">Underwriting</h2>
         <p className="text-[#575756] text-xl">
           Our watertight underwriting processes and credit policy play a pivotal

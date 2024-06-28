@@ -11,9 +11,9 @@ const Footer = () => {
       </div>
       <div className=' col-md-auto'>
         <p className='m-0 flex align-middle'>
-          Designed and Developed by
+          Designed and Developed by<span className='font-bold'></span>
           <a href="https://www.kalolwala.com">
-            <img src="./logo-k&a.png" alt="" className='footer-logo' />
+            <img src="./LandingPage-img/footer_img.png" alt="" className='footer-logo'/>
           </a>
         </p>
       </div>

@@ -3,7 +3,7 @@ import "./Chairman.css";
 
 const BOD = () => {
   return (
-    <div className="container-margin">
+    <div className="container-margin mt-8 mb-8">
       {/* ------------------------------------------------------------------------------------------- */}
       <div className="mt-5 align-middle border-black ">
         <h1 className="text-[#0098b6]  font-bold title-page lg:text-6xl pb-8">
@@ -193,9 +193,6 @@ const BOD = () => {
             </p>
           </div>
         </div>
-        <div
-          style={{ borderTop: "2px solid #a4a4a4", marginTop: "20px" }}
-        ></div>
       </div>
       {/* ------------------------------------------------------------------------------------------- */}
 

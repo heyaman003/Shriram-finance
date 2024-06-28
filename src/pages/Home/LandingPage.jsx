@@ -5,9 +5,11 @@ import MHighlights from '../../components/Highlights/Highlights'
 import Quote from '../../components/Quote/Quote'
 import Financial from '../../components/Financial/Financial'
 import ReadMoreButton from '../../components/ReadMore/ReadMoreButton'
+import HoverLink from '../../components/HoverLink/HoverLink'
 import { motion, useAnimation } from 'framer-motion';
 import { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
+import {Link} from 'react-router-dom'
 export default function LandingPage() {
     
     const controls = useAnimation();
@@ -86,7 +88,7 @@ export default function LandingPage() {
     };
     return (
         <>
-            <div className='grid lg:grid-cols-2 gap-4 sm:grid-cols-1 sm:text-center bg-[#d9eef2]  p-4 w-full '>
+            <div className='grid lg:grid-cols-2 gap-4 sm:grid-cols-1 sm:text-center bg-[#d9eef2]  p-16 w-full '>
                 <div className='relative flex justify-center items-center lg:w-[39vw] m-auto '>
                     <img src="./LandingPage-img/landing_img-1.svg" alt="" className='animate-rotate' />
                     <div className='absolute flex justify-center items-center lg:w-[34vw]'>
@@ -96,19 +98,32 @@ export default function LandingPage() {
                         </div>
                     </div>
                     <div className='absolute z-10 main-img lg:w-[27vw] ]'>
-                        <img src="./LandingPage-img/landing_img-4.svg" alt="" />
+                        <img src="./LandingPage-img/landing_img-4.webp" alt="" />
                     </div>
                 </div>
-                <div className='flex justify-center items-center lg:text-6xl sm:text-2xl m-auto'>
-                    <div className='flex flex-col items-start landing-page-hero-container'>
-                        <h1 class='font-bebas font-bold  gradient-border'>EMPOWERING <span class='text-[#0098B3]'> PEOPLE</span></h1>
-                        <br />
-                        <h1 class='font-bebas font-bold  gradient-border'><span class='text-[#0098B3]'>ENHANCING </span>GROWTH</h1>
-                        <br />
-                        <h1 class='font-bebas font-bold '>ENSURING <span class='text-[#C82D91]'>AFFORDABILITY</span></h1>
+                <div className='flex flex-col justify-center'>
+                    <div className='flex justify-start'>
+                        <div className='text-left'>
+                          {/* <p className="text-[#006b95] font-bold">Shriram Housing Finance</p>  */}
+                          <p> Annual Report 2023-2024</p>
+                        </div> 
+                    </div>
+                    <div className='flex  items-center lg:text-6xl sm:text-2xl mt-8'>
+                            <div className='flex flex-col items-start landing-page-hero-container'>
+                                <h1 class='font-bebas font-bold  gradient-border'>EMPOWERING <span class='text-[#0098B3]'> PEOPLE</span></h1>
+                                <br />
+                                <h1 class='font-bebas font-bold  gradient-border'><span class='text-[#0098B3]'>ENHANCING </span>GROWTH</h1>
+                                <br />
+                                <h1 class='font-bebas font-bold '>ENSURING <span class='text-[#C82D91]'>AFFORDABILITY</span></h1>
+                            </div>
+                    </div>
+                    <div className='mt-6'>
+                        <HoverLink/>
                     </div>
                 </div>
             </div>
+
+         
 
             {/* <div className='grid grid-cols-1 bg-gradient-to-r from-[#026E89] to-[#005067]  w-full text-[#ffff] h-auto '>
                 <h4 className='text-center font-900 lg:text-2xl py-4 mt-8'>Major Highlights of FY24</h4>
@@ -141,38 +156,35 @@ export default function LandingPage() {
                 </div>
             </div> */}
             <MHighlights />
+           <div>
+             <div className="grid lg:grid-cols-2 sm:grid-cols-1 mt-8 container-margin">
+                    <div className="head relative flex justify-start mt-10 mb-10">
+                        <img src="./Highlights-img/Emp_img.svg" alt="" className="w-full" />
+                        <p className="absolute lg:text-3xl sm:text-2xl inset-0 top-[45%] left-[50%] font-bold">
+                            Empowering <span className="text-[#0098B3]">People Enhancing</span> Growth Ensuring <span className="text-[#67236e]">Affordability</span>
+                        </p>
+                    </div>
+                    <div className="lg:text-xl pt-16 text-[#0098B3] font-bold">
+                        <p>
+                            For us at Shriram Housing Finance Limited (SHFL),
+                            empowerment is an endeavour that begins with
+                            a better understanding of what our customers
+                            need and culminates with the fulfilment of their
+                            aspirations of owning their own homes. This is
+                            what we mean by saying that empowerment for us
+                            has more than one connotation.
+                        </p>
+                    </div>
+              </div>
+              <div className='mt-6 mb-8'>
+                    <a href="Affordability"><ReadMoreButton/></a>
+              </div>
+              
+           </div>
 
-            <motion.div
-            ref={ref}
-            initial="hidden"
-            animate={controls}
-            variants={variants}
-            className="grid lg:grid-cols-2 sm:grid-cols-1 mt-8 container-margin"
-        >
-            <motion.div
-                className="head relative flex justify-start mt-10 mb-10"
-                variants={variants}
-            >
-                <img src="./Highlights-img/Emp_img.svg" alt="" className="w-full" />
-                <p className="absolute lg:text-3xl sm:text-2xl inset-0 top-[45%] left-[50%] font-bold">
-                    Empowering <span className="text-[#0098B3]">People Enhancing</span> Growth Ensuring <span className="text-[#67236e]">Affordability</span>
-                </p>
-            </motion.div>
-            <motion.div
-                className="lg:text-2xl pt-16 text-[#0098B3] font-600"
-                variants={variants}
-            >
-                <p>
-                    For us at Shriram Housing Finance Limited (SHFL),
-                    empowerment is an endeavour that begins with
-                    a better understanding of what our customers
-                    need and culminates with the fulfilment of their
-                    aspirations of owning their own homes. This is
-                    what we mean by saying that empowerment for us
-                    has more than one connotation.
-                </p>
-            </motion.div>
-        </motion.div>
+
+
+        <Quote />
 
 {/* **************************************************************************************** */}
 
@@ -208,22 +220,14 @@ export default function LandingPage() {
                 </div>
               
             </div>
-            <div className='mt-6 mb-8'>
-                    <a href="Empowering"><ReadMoreButton/></a>
-            </div>
-            
-        </div>
-
-   {/* *******************************************************************************************            */}
-
-   <motion.div
+            <motion.div
             ref={ref}
             initial="hidden"
             animate={controls}
             variants={containerVariants}
-            className='disc-section mt-8'
+            className='disc-section'
         >
-            <div className='container-margin'>
+            {/* <div className='container-margin'>
                 <h1 className='marginal val-heading w-full text-[#006b95]'>Our Values</h1>
                 <motion.div
                     className='grid lg:grid-cols-6 sm:grid-cols-1 gap-4 items-center sm:justify-start mt-2'
@@ -253,12 +257,22 @@ export default function LandingPage() {
                         <span className='absolute inset-0 top-[25%] left-[52%] text-3xl'>Empathy</span>
                     </motion.div>
                 </motion.div>
+            </div> */}
+             
+             <div className='mt-6 mb-8'>
+                    <a href="Empowering"><ReadMoreButton/></a>
             </div>
         </motion.div>
 
+            
+            
+        </div>
+
    {/* *******************************************************************************************            */}
 
-              <div>
+  
+   {/* *******************************************************************************************            */}
+ {/* <div>
                     <div className='bg-slate-50 mt-8 mb-8 p-6'>
                             <div className='container-margin'>
                                 <p className='text-5xl text-[#008cca] font-bold'>Empowering the Growth of
@@ -282,6 +296,9 @@ export default function LandingPage() {
                                             , and successful completion leads to
                                             a joint certificate from SHFL and the
                                             relevant Sector Skill Council.</p>
+                                            <div className='flex justify-start mt-4'>
+                                                 <Link href="/EmpoweringCommunities"><ReadMoreButton/></Link>
+                                            </div>
                                     </div>
                                     <div className='flex justify-end'>
                                         <img src="./Page-image/EC1.webp" alt="" className='w-[85%] '/>
@@ -290,13 +307,11 @@ export default function LandingPage() {
                         </div>
                        
                      </div>
-                     <div>
-                            <a href="EmpoweringCommunities"><ReadMoreButton/></a>
-                     </div>
-              </div>
-            <BodSlider />
+              </div> */}
+             
+            {/* <BodSlider /> */}
             <Financial/>
-            <Quote />
+           
 
 
         </>

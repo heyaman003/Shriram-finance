@@ -59,11 +59,11 @@ import { motion } from "framer-motion";
 
   return (
     <>
-      <div className="navbar flex">
+      <div className="navbar flex p-8">
         <h4 className="annual-report-text">
-           <span className="text-[#006b95] font-bold">Shriram Housing Finance</span> <br /> Annual Report <span className="font-500">2023-2024</span>
+           {/* <span className="text-[#006b95] font-bold">Shriram Housing Finance</span> <br /> Annual Report <span className="font-500">2023-2024</span> */}
         </h4>
-        <img className="shriram-logo" src="./Nav-img/shriram-logo.svg" alt="" />
+        <img className="shriram-logo" src="./Nav-img/shriram-logo.svg" alt=""  />
         <div id="nav-container">
           <div id="nav-overlay"></div>
           <nav id="nav-fullscreen">
@@ -73,41 +73,63 @@ import { motion } from "framer-motion";
               transition={{ delay: 2 }}
               className="nav-menu-wrap"
             >
-               <ul>
-    <b>Know Shriram</b>
+     <div>
+        <ul >
+          <b>Corporate Overview</b>
 
-    <li><Link onClick={() => toggleNav()} to="/" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Home</Link></li>
-    <li><Link onClick={() => toggleNav()} to="/Chairman-message" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Message from MD & CEO</Link></li>
+          <li><Link onClick={() => toggleNav()} to="/" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Home</Link></li>
+          <li><Link onClick={() => toggleNav()} to="/Affordability" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Empowering People Enhancing Growth Ensuring Affordability
+          </Link></li>
+          <li><Link onClick={() => toggleNav()} to="/Empowering" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Empowering People with Affordable Housing Finance Solutions
+          </Link></li>
+          <li><Link onClick={() => toggleNav()} to="/Journey" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>On a Journey of Empowering People
+          </Link></li>
+          <li><Link onClick={() => toggleNav()} to="/ExploringNewFrontiers" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Exploring New Frontiers through our Myriad Offerings</Link></li>
+          <li><Link onClick={() => toggleNav()} to="/Progress" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Measuring our Progress
+          </Link></li>
+          <li><Link onClick={() => toggleNav()} to="/Chairman-message" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Message from MD & CEO</Link></li>
 
-    <li><Link onClick={() => toggleNav()} to="/CFO" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Message from WTD & CFO</Link></li>
+          <li><Link onClick={() => toggleNav()} to="/CFO" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Message from WTD & CFO</Link></li>
+          <li><Link onClick={() => toggleNav()} to="/LeadingFinancialAgility" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Leading with Financial Agility</Link></li>
+          <li><Link onClick={() => toggleNav()} to="/RobustProcess" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Robust Underwriting Process</Link></li>
+          <li><Link onClick={() => toggleNav()} to="/FinancialInclusion" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Making Financial Inclusion a Reality for All</Link></li>
+          <li><Link onClick={() => toggleNav()} to="/AdoptingDigitisation" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Adopting Digitisation</Link></li>
+          <li><Link onClick={() => toggleNav()} to="/BusinessModel" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Creating Value through a Robust  Business Model</Link></li>
+          <li><Link onClick={() => toggleNav()} to="/PeopleCore" >People at the Core</Link></li>
+         
+        </ul>
 
-    <li><Link onClick={() => toggleNav()} to="/BOD" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Profile of the Board  of Directors </Link></li>
+   </div>
+   <div>
+        <ul className="pt-6">
+          <li><Link onClick={() => toggleNav()} to="/NavigatingChallenges" >Navigating Challenges with Agility</Link></li>
+          <li><Link onClick={() => toggleNav()} to="/EmpoweringCommunities" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Empowering the Growth of our Communities</Link></li>
+          <li><Link onClick={() => toggleNav()} to="/BOD" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Profile of the Board  of Directors </Link></li>
 
-    <li><Link onClick={() => toggleNav()} to="/ManagementTeam" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Management Team</Link></li>
+          <li><Link onClick={() => toggleNav()} to="/ManagementTeam" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Management Team</Link></li>
 
-    <li><Link onClick={() => toggleNav()} to="/PeopleCore" >People at the Core</Link></li>
-
-    <li><Link onClick={() => toggleNav()} to="/NavigatingChallenges" >Navigating Challenges <br /> with Agility</Link></li>
-
-  </ul>
-  <ul>
-    <b>Business Overview</b>
-    <li><Link onClick={() => toggleNav()} to="/EmpoweringCommunities" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Empowering the Growth of <br />our Communities</Link></li>
-    <li><Link onClick={() => toggleNav()} to="/BusinessModel" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Creating Value through a Robust <br /> Business Model</Link></li>
-    <li><Link onClick={() => toggleNav()} to="/AdoptingDigitisation" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Adopting Digitisation</Link></li>
-    <li><Link onClick={() => toggleNav()} to="/FinancialInclusion" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Making Financial Inclusion a <br />Reality for All</Link></li>
-    <li><Link onClick={() => toggleNav()} to="/RobustProcess" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Robust Underwriting Process</Link></li>
-    <li><Link onClick={() => toggleNav()} to="/LeadingFinancialAgility" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Leading with Financial Agility</Link></li>
-    <li><Link onClick={() => toggleNav()} to="/ExploringNewFrontiers" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Exploring New Frontiers through our <br />Myriad Offerings</Link></li>
-    <li><Link onClick={() => toggleNav()} to="/Journey" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>On a Journey of Empowering People
-    </Link></li>
-    <li><Link onClick={() => toggleNav()} to="/Empowering" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Empowering People with Affordable <br />Housing Finance Solutions
-    </Link></li>
-    <li><Link onClick={() => toggleNav()} to="/Affordability" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Empowering People Enhancing Growth <br />Ensuring Affordability
-    </Link></li>
-    <li><Link onClick={() => toggleNav()} to="/Progress" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Measuring our Progress
-    </Link></li>
-  </ul>
+        </ul>
+        <ul>
+            <b>Statutory Reports</b>
+            <li><Link onClick={() => toggleNav()} to="/PeopleCore" >Directors’ Report</Link></li>
+            <li><Link onClick={() => toggleNav()} to="/PeopleCore" > Management Discussion and Analysis</Link></li>
+            <li><Link onClick={() => toggleNav()} to="/PeopleCore" > Report on Corporate Governance</Link></li>
+        </ul>
+        <ul className="pt-4">
+            <b>Financial Statements</b>
+            <li><Link onClick={() => toggleNav()} to="/PeopleCore" >Independent Auditors’ Report</Link></li>
+            <li><Link onClick={() => toggleNav()} to="/PeopleCore" > Balance Sheet</Link></li>
+            <li><Link onClick={() => toggleNav()} to="/PeopleCore" > Statement of Profit and Loss</Link></li>
+            <li><Link onClick={() => toggleNav()} to="/PeopleCore" >Cash Flow Statement</Link></li>
+            <li><Link onClick={() => toggleNav()} to="/PeopleCore" > Statement of Changes in Equity</Link></li>
+            <li><Link onClick={() => toggleNav()} to="/PeopleCore" >Notes to Financial Statements</Link></li>
+        </ul>
+        <ul className="pt-4">
+            <b>Notice</b>
+            <li><Link onClick={() => toggleNav()} to="/PeopleCore" >Notice of the 14th Annual General Meeting</Link></li>
+        </ul>
+   </div>
+ 
             </motion.div>
           </nav>
           <a id="nav-toggle" onClick={toggleNav}>

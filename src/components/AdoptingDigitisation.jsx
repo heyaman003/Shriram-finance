@@ -2,7 +2,7 @@ import React from "react";
 
 const AdoptingDigitisation = () => {
   return (
-    <div className="container-margin mb-8">
+    <div className="container-margin mb-8 mt-8">
       <div className="mt-4 mb-4">
         <h1 className="text-[#0098b6]  font-bold title-page lg:text-6xl">
           Adopting Digitisation
